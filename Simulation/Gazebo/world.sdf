@@ -81,13 +81,47 @@
     <pose relative_to='maincorridor'>-14 5 0 0 0 0 </pose>
   </include>
 
-
   <include>
     <name>second_year</name>
     <uri>models/sub_worlds/second_year.sdf</uri>
     <pose relative_to='maincorridor'>-14 -17 0 0 0 0 </pose>
   </include>
 
+  <include>
+    <name>first_year</name>
+    <uri>models/sub_worlds/first_year.sdf</uri>
+    <pose relative_to='maincorridor'>-14 -39 0 0 0 0 </pose>
+  </include>
+
+  <include>
+    <name>library</name>
+    <uri>models/sub_worlds/library.sdf</uri>
+    <pose relative_to='maincorridor'>4 -44 0 0 0 0 </pose>
+  </include>
+
+  <include>
+    <name>lab1</name>
+    <uri>models/sub_worlds/lab1.sdf</uri>
+    <pose relative_to='maincorridor'>4 -25 0 0 0 0 </pose>
+  </include>
+  
+  <include>
+    <name>lab2</name>
+    <uri>models/sub_worlds/lab2.sdf</uri>
+    <pose relative_to='maincorridor'>4 -6 0 0 0 0 </pose>
+  </include>
+
+  <include>
+    <name>lab3</name>
+    <uri>models/sub_worlds/lab3.sdf</uri>
+    <pose relative_to='maincorridor'>4 13 0 0 0 0 </pose>
+  </include>
+  
+  <include>
+    <name>lab4</name>
+    <uri>models/sub_worlds/lab4.sdf</uri>
+    <pose relative_to='maincorridor'>4 27 0 0 0 0 </pose>
+  </include>
 
   </world>
 </sdf>

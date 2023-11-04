@@ -1,8 +1,9 @@
- <?xml version='1.0' ?>
+<?xml version='1.0' ?>
 <sdf version="1.8">
   
   <model name="third_year">
-        <!-- platform-->
+  
+    <!-- platform-->
     <include> 
       <name>lecture_theature_platform</name>
       <uri>models/freeCad_dae/lecture_theater_platform.sdf</uri>
@@ -13,7 +14,7 @@
     <include> 
       <name>smart_board</name>
       <uri>models/freeCad_dae/smart_board.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>-5 0 0 0 0 0.7854 </pose>
+      <pose relative_to='lecture_theature_platform'>5 0 0 0 0 -0.7854 </pose>
     </include>
     
 
@@ -512,87 +513,87 @@
     <include>
       <name>walking_person1</name>
       <uri>models/fuel_models/Walking_person/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>9 -4.5 0 0 0 1.575</pose>
+      <pose relative_to='lecture_theature_platform'>5 -5 0 0 0 -1.575</pose>
     </include>
 
     <include>
       <name>walking_person2</name>
       <uri>models/fuel_models/Walking_person/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>-7.5 -17 0 0 0 3.15</pose>
+      <pose relative_to='lecture_theature_platform'>-6 -16.5 0 0 0 1.575</pose>
     </include>
 
     <include>
       <name>walking_person3</name>
       <uri>models/fuel_models/Walking_person/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>7 -8 0 0 0 1.575</pose>
+      <pose relative_to='lecture_theature_platform'>2 -7 0 0 0 -1.575</pose>
     </include>
 
     <include>
       <name>walking_person4</name>
       <uri>models/fuel_models/Walking_person/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>-8 -14 0 0 0 -1.575</pose>
+      <pose relative_to='lecture_theature_platform'>-5 -13 0 0 0 -1.575</pose>
     </include>
 
     <!-- standing people-->
     <include>
       <name>standing_person1</name>
       <uri>models/fuel_models/Standing_person/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>0 0.65 0.1 0 0 0.5</pose>
+      <pose relative_to='lecture_theature_platform'>-5 0 0 0 0 0</pose>
     </include>
 
     <include>
       <name>standing_person2</name>
       <uri>models/fuel_models/Standing_person/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>10 -16 0 0 0 3.15</pose>
+      <pose relative_to='lecture_theature_platform'>7.5 -17 0 0 0 3.15</pose>
     </include>
 
     <include>
       <name>standing_person3</name>
       <uri>models/fuel_models/Standing_person/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>4 -2 0 0 0 3.15</pose>
+      <pose relative_to='lecture_theature_platform'>3 -2.3 0 0 0 3.5</pose>
     </include>
 
     <include>
       <name>standing_person4</name>
       <uri>models/fuel_models/Standing_person/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>0 -17 0 0 0 1.575</pose>
+      <pose relative_to='lecture_theature_platform'>-0.5 -17 0 0 0 3.5</pose>
     </include>
 
     <include>
       <name>standing_person5</name>
       <uri>models/fuel_models/Standing_person/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>-6 -7.5 0 0 0 1.575</pose>
+      <pose relative_to='lecture_theature_platform'>-3 -8 0 0 0 3.5</pose>
     </include>
 
     <include>
       <name>standing_person6</name>
       <uri>models/fuel_models/Standing_person/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>1 -14 0 0 0 3.15</pose>
+      <pose relative_to='lecture_theature_platform'>-0.5 -14 0 0 0 3.15</pose>
     </include>
 
     <!-- Casual females-->
     <include>
       <name>Casual_female1</name>
       <uri>models/fuel_models/Casual_female/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>0 -4.5 0 0 0 1.575</pose>
+      <pose relative_to='lecture_theature_platform'>-3 -5 0 0 0 3.15</pose>
     </include>
 
     <include>
       <name>Casual_female2</name>
       <uri>models/fuel_models/Casual_female/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>-4 -7.5 0 0 0 -1.575</pose>
+      <pose relative_to='lecture_theature_platform'>-8 -8 0 0 0 3.15</pose>
     </include>
 
     <include>
       <name>Casual_female3</name>
       <uri>models/fuel_models/Casual_female/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>10 -10 0 0 0 3.15</pose>
+      <pose relative_to='lecture_theature_platform'>8 -11 0 0 0 3.15</pose>
     </include>
 
     <include>
       <name>Casual_female4</name>
       <uri>models/fuel_models/Casual_female/model.sdf</uri>
-      <pose relative_to='lecture_theature_platform'>-3 -11 0 0 0 3.15</pose>
+      <pose relative_to='lecture_theature_platform'>-5 -11 0 0 0 3.15</pose>
     </include>
  
  

@@ -1,0 +1,400 @@
+<?xml version='1.0' ?>
+<sdf version="1.8">
+  <model name="lab4">
+    
+    <!-- Main CHair-->
+    <include>
+      <name>Main_Chair</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose>0 0 0 0 0 1.575</pose>
+    </include>
+      
+    <!-- Front Wall with window-->
+    <include> 
+      <name>front_wall_with_window</name>
+      <uri>models/freeCad_dae/wall_with_window.sdf</uri>
+      <pose relative_to='Main_Chair'>-3 -20 0 0 0 0 </pose>
+    </include>
+
+    <!-- Right Wall-->
+    <include> 
+      <name>right_wall</name>
+      <uri>models/freeCad_dae/wall.sdf</uri>
+      <pose relative_to='Main_Chair'>8 -9 0 0 0 1.575 </pose>
+    </include>
+
+    <!-- Smart Board-->
+    <include> 
+      <name>smart_board</name>
+      <uri>models/freeCad_dae/smart_board.sdf</uri>
+      <pose relative_to='Main_Chair'>-3 0 0 0 0 0 </pose>
+    </include>
+
+
+    <!-- computer tables with chairs (First Column)-->
+    <include> 
+      <name>computer_table1</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-10 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair1_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-9.5 -4 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair1_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-10.5 -4 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table2</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-10 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair2_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-9.5 -7 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair2_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-10.5 -7 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table3</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-10 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair3_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-9.5 -10 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair3_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-10.5 -10 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table4</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-10 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair4_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-9.5 -13 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair4_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-10.5 -13 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table5</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-10 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair5_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-9.5 -16 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair5_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-10.5 -16 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table6</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-10 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair6_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-9.5 -19 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair6_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-10.5 -19 0 0 0 3.15</pose>
+    </include>
+
+    <!-- computer tables with chairs (Second Column)-->
+    <include> 
+      <name>computer_table7</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-2 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair7_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-1.5 -4 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair7_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-2.5 -4 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table8</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-2 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair8_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-1.5 -7 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair8_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-2.5 -7 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table9</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-2 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair9_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-1.5 -10 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair9_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-2.5 -10 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table10</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-2 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair10_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-1.5 -13 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair10_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-2.5 -13 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table11</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-2 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair11_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-1.5 -16 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair11_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-2.5 -16 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table12</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>-2 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair12_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-1.5 -19 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair12_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>-2.5 -19 0 0 0 3.15</pose>
+    </include>
+
+
+    <!-- computer tables with chairs (Third Column)-->
+    <include> 
+      <name>computer_table13</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>6 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair13_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>5.5 -4 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair13_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>6.5 -4 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table14</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>6 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair14_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>5.5 -7 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair14_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>6.5 -7 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table15</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>6 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair15_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>5.5 -10 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair15_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>6.5 -10 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table16</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>6 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair16_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>5.5 -13 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair16_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>6.5 -13 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table17</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>6 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair17_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>5.5 -16 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair17_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>6.5 -16 0 0 0 3.15</pose>
+    </include>
+
+    <include> 
+      <name>computer_table18</name>
+      <uri>models/freeCad_dae/computer_table.sdf</uri>
+      <pose relative_to='Main_Chair'>6 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair18_1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>5.5 -19 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Chair18_2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='Main_Chair'>6.5 -19 0 0 0 3.15</pose>
+    </include>
+
+    <!-- People-->
+    <include>
+      <name>standing_person1</name>
+      <uri>models/fuel_models/Standing_person/model.sdf</uri>
+      <pose relative_to='Main_Chair'>-5 -2 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>standing_person2</name>
+      <uri>models/fuel_models/Standing_person/model.sdf</uri>
+      <pose relative_to='Main_Chair'>-7 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>walking_person1</name>
+      <uri>models/fuel_models/Walking_person/model.sdf</uri>
+      <pose relative_to='Main_Chair'>-6 -9 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <name>walking_person2</name>
+      <uri>models/fuel_models/Walking_person/model.sdf</uri>
+      <pose relative_to='Main_Chair'>-12 -11 0 0 0 2.5</pose>
+    </include>
+
+    <include>
+      <name>Casual_female1</name>
+      <uri>models/fuel_models/Casual_female/model.sdf</uri>
+      <pose relative_to='Main_Chair'>-7 -2 0 0 0 1</pose>
+    </include>
+
+    <include>
+      <name>Casual_female2</name>
+      <uri>models/fuel_models/Casual_female/model.sdf</uri>
+      <pose relative_to='Main_Chair'>3 -15 0 0 0 3.5</pose>
+    </include>
+
+  </model>
+</sdf>
