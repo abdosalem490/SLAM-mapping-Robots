@@ -1,0 +1,8 @@
+{
+  "package_name": "turtlebot4_msgs",
+  "non_idl_tuples": [
+    "/home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_msgs:msg/UserLed.msg",
+    "/home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_msgs:msg/UserButton.msg",
+    "/home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_msgs:msg/UserDisplay.msg"
+  ]
+}

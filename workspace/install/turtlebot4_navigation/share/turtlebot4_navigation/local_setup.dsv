@@ -1,0 +1,3 @@
+source;share/turtlebot4_navigation/environment/ament_prefix_path.sh
+source;share/turtlebot4_navigation/environment/path.sh
+source;share/turtlebot4_navigation/environment/pythonpath.sh

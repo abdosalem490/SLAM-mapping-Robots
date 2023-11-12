@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>slam_robots</name>
+  <version>0.0.0</version>
+  <description>project for simultaneous localization and mapping for CMP department using multiple robots</description>
+  <maintainer email="abdosalm555@gmail.com">Abdelrahman Mohamed Salem</maintainer>
+  <maintainer email="afawz6145@gmail.com">Ahmed Fawzy</maintainer>
+  <maintainer email="youssef.ibrahim01@eng-st.cu.edu.eg">Youssef Said Ibhraim Rabie</maintainer>
+  <maintainer email="nour.almulhem01@eng-st.cu.edu.eg">Nour ziad</maintainer>
+  <license>MIT</license>
+  
+  <!-- because there exist multiple build types like ament_cmake, ament_python and cmake-->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- for testing (not used in our project) --> 
+  <!-- <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend> -->
+  
+  <!-- To export important data to the build tool "colcon" -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+  
+</package>

@@ -1,0 +1,2 @@
+source;share/turtlebot4_ignition_gui_plugins/environment/ament_prefix_path.sh
+source;share/turtlebot4_ignition_gui_plugins/environment/path.sh

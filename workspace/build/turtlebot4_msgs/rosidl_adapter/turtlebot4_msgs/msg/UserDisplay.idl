@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtlebot4_msgs/msg/UserDisplay.msg
+// generated code does not contain a copyright notice
+
+
+module turtlebot4_msgs {
+  module msg {
+    typedef string string__5[5];
+    @verbatim (language="comment", text=
+      "This message represents the header and 5 entries " "\n"
+      "that are displayed on the Turtlebot4 display" "\n"
+      "selected_entry indicates which menu entry is currently selected")
+    struct UserDisplay {
+      string ip;
+
+      string battery;
+
+      string__5 entries;
+
+      int32 selected_entry;
+    };
+  };
+};

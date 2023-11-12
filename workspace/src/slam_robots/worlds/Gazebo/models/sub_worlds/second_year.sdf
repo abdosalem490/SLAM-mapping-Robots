@@ -1,0 +1,601 @@
+<?xml version='1.0' ?>
+<sdf version="1.8">
+  
+  <model name="third_year">
+  
+    <!-- platform-->
+    <include> 
+      <name>lecture_theature_platform</name>
+      <uri>models/freeCad_dae/lecture_theater_platform.sdf</uri>
+      <pose>10 0 0 0 0 -1.575 </pose>
+    </include>
+
+    <!-- Smart Board-->
+    <include> 
+      <name>smart_board</name>
+      <uri>models/freeCad_dae/smart_board.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>5 0 0 0 0 -0.7854 </pose>
+    </include>
+    
+
+    <!-- back Wall with window-->
+    <include> 
+      <name>back_wall_with_window</name>
+      <uri>models/freeCad_dae/wall_with_window.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>0 -20 0 0 0 0 </pose>
+    </include>
+
+    <!-- Right Wall-->
+    <include> 
+      <name>right_wall</name>
+      <uri>models/freeCad_dae/wall.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>11 -9 0 0 0 1.575 </pose>
+    </include>
+    
+    <!-- First Row-->
+    <include>
+      <name>chair1</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform' >0 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair2</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>1.5 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair3</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>3 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair4</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>4.5 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair5</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>6 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair6</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>7.5 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair7</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>9 -3 0 0 0 3.15</pose>
+    </include>
+    
+    <include>
+      <name>chair8</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-1.5 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair9</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-3 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair10</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-4.5 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair11</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-6 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair12</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-7.5 -3 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair13</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-9 -3 0 0 0 3.15</pose>
+    </include>
+
+    <!-- Second Row-->
+    <include>
+      <name>chair14</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform' >0 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair15</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>1.5 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair16</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>3 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair17</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>4.5 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair18</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>6 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair19</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>7.5 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair20</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>9 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair21</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-1.5 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair22</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-3 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair23</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-4.5 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair24</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-6 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair25</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-7.5 -6 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair26</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-9 -6 0 0 0 3.15</pose>
+    </include>
+
+
+    <!-- Third Row-->
+    <include>
+      <name>chair27</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform' >0 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair28</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>1.5 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair29</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>3 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair30</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>4.5 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair31</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>6 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair32</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>7.5 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair33</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>9 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair34</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-1.5 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair35</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-3 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair36</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-4.5 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair37</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-6 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair38</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-7.5 -9 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair39</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-9 -9 0 0 0 3.15</pose>
+    </include>
+
+
+    <!-- Fourth Row-->
+    <include>
+      <name>chair40</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform' >0 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair41</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>1.5 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair42</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>3 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair43</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>4.5 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair44</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>6 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair45</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>7.5 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair46</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>9 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair47</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-1.5 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair48</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-3 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair49</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-4.5 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair50</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-6 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair51</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-7.5 -12 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair52</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-9 -12 0 0 0 3.15</pose>
+    </include>
+
+
+    <!-- Fifth Row-->
+    <include>
+      <name>chair53</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform' >0 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair54</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>1.5 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair55</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>3 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair56</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>4.5 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair57</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>6 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair58</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>7.5 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair59</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>9 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair60</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-1.5 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair61</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-3 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair62</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-4.5 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair63</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-6 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair64</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-7.5 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair65</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-9 -15 0 0 0 3.15</pose>
+    </include>
+
+    <!-- Sixth Row-->
+    <include>
+      <name>chair66</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform' >0 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair67</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>1.5 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair68</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>3 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair69</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>4.5 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair70</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>6 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair71</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>7.5 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair72</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>9 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair73</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-1.5 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair74</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-3 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair75</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-4.5 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair76</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-6 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair77</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-7.5 -18 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair78</name>
+      <uri>models/freeCad_dae/chair.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-9 -18 0 0 0 3.15</pose>
+    </include>
+
+    <!-- walking people-->
+    <include>
+      <name>walking_person1</name>
+      <uri>models/fuel_models/Walking_person/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>5 -5 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>walking_person2</name>
+      <uri>models/fuel_models/Walking_person/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-6 -16.5 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>walking_person3</name>
+      <uri>models/fuel_models/Walking_person/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>2 -7 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>walking_person4</name>
+      <uri>models/fuel_models/Walking_person/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-5 -13 0 0 0 -1.575</pose>
+    </include>
+
+    <!-- standing people-->
+    <include>
+      <name>standing_person1</name>
+      <uri>models/fuel_models/Standing_person/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-5 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>standing_person2</name>
+      <uri>models/fuel_models/Standing_person/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>7.5 -17 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>standing_person3</name>
+      <uri>models/fuel_models/Standing_person/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>3 -2.3 0 0 0 3.5</pose>
+    </include>
+
+    <include>
+      <name>standing_person4</name>
+      <uri>models/fuel_models/Standing_person/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-0.5 -17 0 0 0 3.5</pose>
+    </include>
+
+    <include>
+      <name>standing_person5</name>
+      <uri>models/fuel_models/Standing_person/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-3 -8 0 0 0 3.5</pose>
+    </include>
+
+    <include>
+      <name>standing_person6</name>
+      <uri>models/fuel_models/Standing_person/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-0.5 -14 0 0 0 3.15</pose>
+    </include>
+
+    <!-- Casual females-->
+    <include>
+      <name>Casual_female1</name>
+      <uri>models/fuel_models/Casual_female/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-3 -5 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Casual_female2</name>
+      <uri>models/fuel_models/Casual_female/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-8 -8 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Casual_female3</name>
+      <uri>models/fuel_models/Casual_female/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>8 -11 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>Casual_female4</name>
+      <uri>models/fuel_models/Casual_female/model.sdf</uri>
+      <pose relative_to='lecture_theature_platform'>-5 -11 0 0 0 3.15</pose>
+    </include>
+ 
+ 
+  </model>
+</sdf>

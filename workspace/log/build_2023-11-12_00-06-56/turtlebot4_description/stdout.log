@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Found irobot_create_description: 2.1.0 (/opt/ros/humble/share/irobot_create_description/cmake)
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/build/turtlebot4_description
+-- Install configuration: ""
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/launch
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/standard
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/weight_block.urdf.xacro
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_standoff.urdf.xacro
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/lite
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+-- Installing: /home/abdosalm/Github repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description/share/turtlebot4_description/package.xml
