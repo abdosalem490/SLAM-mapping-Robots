@@ -1,2 +1,0 @@
-/usr/bin/ar qc libturtlebot4_ignition_toolbox_lib.a CMakeFiles/turtlebot4_ignition_toolbox_lib.dir/src/hmi_main.cpp.o CMakeFiles/turtlebot4_ignition_toolbox_lib.dir/src/hmi_node.cpp.o
-/usr/bin/ranlib libturtlebot4_ignition_toolbox_lib.a

@@ -1,0 +1,68 @@
+<?xml version='1.0' ?>
+<sdf version="1.6">
+  
+  <model name="robots"> 
+
+    <!-- Corridor robot -->
+    <include>
+      <name>robot1</name>
+      <uri>models/robots/robot1.sdf</uri>
+      <pose>0 0 0 0 0 0 </pose>
+    </include>
+    <!-- Fourth year robot -->
+    <include>
+      <name>robot2</name>
+      <uri>models/robots/robot2.sdf</uri>
+      <pose>-14 27 0 0 0 0 </pose>
+    </include>
+    <!-- Third year robot -->
+    <include>
+      <name>robot3</name>
+      <uri>models/robots/robot3.sdf</uri>
+      <pose>-14 5 0 0 0 0 </pose>
+    </include>
+    <!-- Second year robot -->
+    <include>
+      <name>robot4</name>
+      <uri>models/robots/robot4.sdf</uri>
+      <pose>-14 -17 0 0 0 0 </pose>
+    </include>
+    <!-- First year robot -->
+    <include>
+      <name>robot5</name>
+      <uri>models/robots/robot5.sdf</uri>
+      <pose>-23 -39 0 0 0 0 </pose>
+    </include>
+
+    <include>
+      <name>robot6</name>
+      <uri>models/robots/robot6.sdf</uri>
+      <pose>10 -44 0 0 0 0 </pose>
+    </include>
+
+    <include>
+      <name>robot7</name>
+      <uri>models/robots/robot7.sdf</uri>
+      <pose>8 -28 0 0 0 0 </pose>
+    </include>
+
+    <include>
+      <name>robot8</name>
+      <uri>models/robots/robot8.sdf</uri>
+      <pose>10 -10 0 0 0 0 </pose>
+    </include>
+
+    <include>
+      <name>robot9</name>
+      <uri>models/robots/robot9.sdf</uri>
+      <pose>6 10 0 0 0 0 </pose>
+    </include>
+
+    <include>
+      <name>robot10</name>
+      <uri>models/robots/robot10.sdf</uri>
+      <pose>8 20 0 0 0 0 </pose>
+    </include> 
+
+  </model>
+</sdf>

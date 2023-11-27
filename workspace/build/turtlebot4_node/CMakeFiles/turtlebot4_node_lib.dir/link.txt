@@ -1,2 +1,0 @@
-/usr/bin/ar qc libturtlebot4_node_lib.a CMakeFiles/turtlebot4_node_lib.dir/src/main.cpp.o CMakeFiles/turtlebot4_node_lib.dir/src/turtlebot4.cpp.o CMakeFiles/turtlebot4_node_lib.dir/src/display.cpp.o CMakeFiles/turtlebot4_node_lib.dir/src/buttons.cpp.o CMakeFiles/turtlebot4_node_lib.dir/src/leds.cpp.o
-/usr/bin/ranlib libturtlebot4_node_lib.a
