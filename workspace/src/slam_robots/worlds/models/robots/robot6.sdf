@@ -82,6 +82,11 @@
                 <min_angle>0.0</min_angle>
                 <max_angle>0.0</max_angle>
               </vertical>
+              <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.01</stddev>
+              </noise>                 
             </scan>
             <range>
               <min>0.08</min>
@@ -89,6 +94,7 @@
               <resolution>0.01</resolution>
             </range>
           </lidar>
+          <always_on>1</always_on>
           <visualize>true</visualize>
         </sensor>
       </link>

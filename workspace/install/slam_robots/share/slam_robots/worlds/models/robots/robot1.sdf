@@ -66,15 +66,15 @@
         </visual>
         <sensor name='gpu_lidar' type='gpu_lidar'>
         <pose>0 0 0 0 0 0</pose>
-          <topic>/model/robot1/lidar2</topic>
-          <update_rate>10</update_rate>
+          <topic>/model/robot1/lidar2</topic> <!-- In the <topic> we define the topic on which the lidar data will be published.-->
+          <update_rate>10</update_rate>   <!-- <update_rate> is the frequency at which the lidar data is generated, in our case 10 Hz which is equal to 0.1 sec. -->
           <lidar>
             <scan>
-              <horizontal>
-                <samples>640</samples>
-                <resolution>1</resolution>
-                <min_angle>-1.396263</min_angle>
-                <max_angle>1.396263</max_angle>
+              <horizontal>  
+                <samples>640</samples>          <!-- 0.25 angle step (160/640) --> <!-- <samples> is the number of simulated lidar rays to generate per complete laser sweep cycle.-->
+                <resolution>1</resolution>       <!-- <resolution>: this number is multiplied by samples to determine the number range data points. -->
+                <min_angle>-1.396263</min_angle> <!-- -80 degree-->
+                <max_angle>1.396263</max_angle>  <!-- +80 degree-->
               </horizontal>
               <vertical>
                 <samples>1</samples>
@@ -82,13 +82,20 @@
                 <min_angle>0.0</min_angle>
                 <max_angle>0.0</max_angle>
               </vertical>
+              <!-- add guassian noise-->
+              <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.01</stddev>
+              </noise>
             </scan>
             <range>
-              <min>0.08</min>
+              <min>0.08</min> <!-- <min> and <max> define the minimum and maximum distance for each lidar ray.-->
               <max>10.0</max>
-              <resolution>0.01</resolution>
+              <resolution>0.01</resolution> <!-- The <resolution> tag here defines the linear resolution of each lidar ray.-->
             </range>
           </lidar>
+          <always_on>1</always_on>  <!-- <always_on>: if true the sensor will always be updated according to the <update_rate>. -->
           <visualize>true</visualize>
         </sensor>
       </link>

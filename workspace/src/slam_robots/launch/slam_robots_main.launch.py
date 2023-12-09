@@ -38,8 +38,8 @@ def generate_launch_description():
     # ------------------------------------------------------------------------------------------------------------------------- #
     pkg_ros_ign_gazebo = get_package_share_directory('ros_ign_gazebo'); # get gazebo share directory through which we can run gazebo
     pkg_slam_robots = get_package_share_directory('slam_robots') # get the share directory of the current packate ('slam_robots')
-    pkg_turtlebot4_ignition_bringup = get_package_share_directory('turtlebot4_ignition_bringup')
-    pkg_turtlebot4_description = get_package_share_directory('turtlebot4_description')
+    # pkg_turtlebot4_ignition_bringup = get_package_share_directory('turtlebot4_ignition_bringup')
+    # pkg_turtlebot4_description = get_package_share_directory('turtlebot4_description')
     
     # ------------------------------------------------------ Paths ------------------------------------------------------ #
     # used to extract the paths of the share files of different packages, as if any package wanted to allow anyone to     #
@@ -48,9 +48,9 @@ def generate_launch_description():
     # ------------------------------------------------------------------------------------------------------------------- #
     ign_gazebo_launch = PathJoinSubstitution([pkg_ros_ign_gazebo, 'launch', 'ign_gazebo.launch.py'])    # get the path of ignition gazebo launch file
     slam_robots_world = PathJoinSubstitution([pkg_slam_robots, 'worlds', 'world.sdf'])  # get the path of the world.sdf to run the robot on it
-    slam_robots_turtlebots_launch = PathJoinSubstitution([pkg_slam_robots, 'launch', 'slam_robots_turtlebots.launch.py'])    # get the path of another launch file in same project that's responsible for bringing up turtlebots to life 
-    robot_spawn_launch = PathJoinSubstitution([pkg_turtlebot4_ignition_bringup, 'launch', 'turtlebot4_spawn.launch.py'])
-    pkg_irobot_create_description = get_package_share_directory('irobot_create_description')
+    # slam_robots_turtlebots_launch = PathJoinSubstitution([pkg_slam_robots, 'launch', 'slam_robots_turtlebots.launch.py'])    # get the path of another launch file in same project that's responsible for bringing up turtlebots to life 
+    # robot_spawn_launch = PathJoinSubstitution([pkg_turtlebot4_ignition_bringup, 'launch', 'turtlebot4_spawn.launch.py'])
+    # pkg_irobot_create_description = get_package_share_directory('irobot_create_description')
 
 
     # ------------------------------------------------------ actions ------------------------------------------------------ #
@@ -66,97 +66,242 @@ def generate_launch_description():
     ign_resource_path = SetEnvironmentVariable(
         name='IGN_GAZEBO_RESOURCE_PATH',
         value=[
-            os.path.join(pkg_slam_robots, 'worlds'), ':' +
-            str(Path(pkg_turtlebot4_description).parent.resolve()), ':' +
-            str(Path(pkg_irobot_create_description).parent.resolve())])
+                os.path.join(pkg_slam_robots, 'worlds')
+            ])
 
     # execute the command 'ign gazebo world.sdf'
     ignition_gazebo_command = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([ign_gazebo_launch]),
         launch_arguments=[
-            ('ign_args', [slam_robots_world])
+                ('ign_args', [slam_robots_world])
             ]
     )
 
-    # execute the launch file called 'slam_robots_turtlebots.launch.py' that's in the same project
-    spawn_turtlebot4_1_command = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([slam_robots_turtlebots_launch]),
-        launch_arguments=[
-            ('namespace', turtlebot4_1['namespace']),
-            ('rviz', 'false'),
-            ('use_sim_time', 'true'),
-            ('model', 'standard'),
-            ('localization', 'false'),
-            ('slam', 'false'),
-            ('nav2', 'false'),
-            ('x', turtlebot4_1['x']),
-            ('y', turtlebot4_1['y']),
-            ('z', turtlebot4_1['z']),
-            ('yaw', turtlebot4_1['yaw']),
-            ]
-    )
-    spawn_turtlebot4_2_command = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([slam_robots_turtlebots_launch]),
-        launch_arguments=[
-            ('namespace', 'turtlebot2'),
-            ('rviz', 'false'),
-            ('use_sim_time', 'true'),
-            ('model', 'standard'),
-            ('localization', 'false'),
-            ('slam', 'false'),
-            ('nav2', 'false'),
-            ('x', '1.0'),
-            ('y', '0.0'),
-            ('z', '0.0'),
-            ('yaw', '0'),
-            ]
-    )
-    # execute the launch file called 'turtlebot4_spawn.launch.py' that's in turtlebot4 package which is responsible for spawning one turtlebot4
-    robot1_spawn = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([robot_spawn_launch]),
-        launch_arguments=[
-            ('namespace', turtlebot4_1['namespace']),
-            ('rviz', 'false'),
-            # ('use_sim_time', 'true'),
-            # ('model', 'standard'),
-            # ('localization', 'false'),
-            # ('slam', 'false'),
-            # ('nav2', 'false'),
-            ('x', turtlebot4_1['x']),
-            ('y', turtlebot4_1['y']),
-            ('z', turtlebot4_1['z']),
-            ('yaw', turtlebot4_1['yaw']),
-            ]
-    )
+    # ignition bridge which is used to make gazebo simulator topics seen be ROS2, refer to the end of file to know
+    # what are the fields of each topic
+    bridge = Node(
+        package='ros_ign_bridge',
+        executable='parameter_bridge',
+        arguments=[
+            # create odmetry bridges where the direction of each brdige is from gazebo to ros2
+            # the odometry topic publishes how mush change happened to the robot pose
+            '/model/robot1/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            '/model/robot2/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            '/model/robot3/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            '/model/robot4/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            '/model/robot5/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            '/model/robot6/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            '/model/robot7/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            '/model/robot8/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            '/model/robot9/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            '/model/robot10/odometry@nav_msgs/msg/Odometry[ignition.msgs.Odometry',
+            # create cmd_vel bridges where the direction of each brdige is from ros2 to gazebo
+            # ros2 will publish control command to control speed robot using cmd_vel topic
+            '/model/robot1/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',            
+            '/model/robot2/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',           
+            '/model/robot3/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',           
+            '/model/robot4/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',           
+            '/model/robot5/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',           
+            '/model/robot6/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',           
+            '/model/robot7/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',           
+            '/model/robot8/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',           
+            '/model/robot9/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist',           
+            '/model/robot10/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist', 
+            # create tf bridges where the direction of each brdige is from gazebo to ros2
+            # gazebo will accumulate the odometry given only and only the actions to ease tracking theoretical place of the robot
+            # note that: there are 2 publishers that publishes on tobic /tf where the 2 publishers publishes different types of messages
+            # one is geometry_msgs/msg/Pose and the other is geometry_msgs/msg/PoseArray but we are only interested in the second one
+            '/model/robot1/tf@geometry_msgs/msg/PoseArray[ignition.msgs.Pose_V',            
+            '/model/robot2/tf@geometry_msgs/msg/PoseArray[ignition.msgs.Pose_V',            
+            '/model/robot3/tf@geometry_msgs/msg/PoseArray[ignition.msgs.Pose_V',            
+            '/model/robot4/tf@geometry_msgs/msg/PoseArray[ignition.msgs.Pose_V',            
+            '/model/robot5/tf@geometry_msgs/msg/PoseArray[ignition.msgs.Pose_V',            
+            '/model/robot6/tf@geometry_msgs/msg/PoseArray[ignition.msgs.Pose_V',            
+            '/model/robot7/tf@geometry_msgs/msg/PoseArray[ignition.msgs.Pose_V',            
+            '/model/robot8/tf@geometry_msgs/msg/PoseArray[ignition.msgs.Pose_V',            
+            '/model/robot9/tf@geometry_msgs/msg/PoseArray[ignition.msgs.Pose_V',            
+            '/model/robot10/tf@geometry_msgs/msg/PoseArray[ignition.msgs.Pose_V',            
+            # create lidar lidar bridges where the direction of each bridge is from gazebo to ros2
+            # the returned values are distances of each ray that hit or infinity if it didn't reach
+            # we are interested in values > min_value and < max_value
+            '/model/robot1/lidar2@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',            
+            '/model/robot2/lidar2@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',            
+            '/model/robot3/lidar2@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',            
+            '/model/robot4/lidar2@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',            
+            '/model/robot5/lidar2@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',            
+            '/model/robot6/lidar2@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',            
+            '/model/robot7/lidar2@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',            
+            '/model/robot8/lidar2@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',            
+            '/model/robot9/lidar2@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',            
+            '/model/robot10/lidar2@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan',            
 
-    robot2_spawn = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([robot_spawn_launch]),
-        launch_arguments=[
-            ('namespace', turtlebot4_2['namespace']),
-            ('rviz', 'false'),
-            # ('use_sim_time', 'true'),
-            # ('model', 'standard'),
-            # ('localization', 'false'),
-            # ('slam', 'false'),
-            # ('nav2', 'false'),
-            ('x', turtlebot4_2['x']),
-            ('y', turtlebot4_2['y']),
-            ('z', turtlebot4_2['z']),
-            ('yaw', turtlebot4_2['yaw']),
-            ]
+            # Extra bridge related to lidar that maybe needed later but still don't know what the output represent
+            '/model/robot1/lidar2/points@sensor_msgs/msg/PointCloud2[ignition::msgs::PointCloudPacked',            
+            '/model/robot2/lidar2/points@sensor_msgs/msg/PointCloud2[ignition::msgs::PointCloudPacked',            
+            '/model/robot3/lidar2/points@sensor_msgs/msg/PointCloud2[ignition::msgs::PointCloudPacked',            
+            '/model/robot4/lidar2/points@sensor_msgs/msg/PointCloud2[ignition::msgs::PointCloudPacked',            
+            '/model/robot5/lidar2/points@sensor_msgs/msg/PointCloud2[ignition::msgs::PointCloudPacked',            
+            '/model/robot6/lidar2/points@sensor_msgs/msg/PointCloud2[ignition::msgs::PointCloudPacked',            
+            '/model/robot7/lidar2/points@sensor_msgs/msg/PointCloud2[ignition::msgs::PointCloudPacked',            
+            '/model/robot8/lidar2/points@sensor_msgs/msg/PointCloud2[ignition::msgs::PointCloudPacked',            
+            '/model/robot9/lidar2/points@sensor_msgs/msg/PointCloud2[ignition::msgs::PointCloudPacked',            
+            '/model/robot10/lidar2/points@sensor_msgs/msg/PointCloud2[ignition::msgs::PointCloudPacked',
+            ],
+        output='screen'
     )
 
     
-
-
 
     # Create launch description and add actions
     ld = LaunchDescription(None)
     ld.add_action(ign_resource_path)
     ld.add_action(ignition_gazebo_command)
+    ld.add_action(bridge)
 
-    ld.add_action(robot2_spawn)
+    # ld.add_action(robot2_spawn)
     # ld.add_action(robot1_spawn)
     # ld.add_action(spawn_turtlebot4_1_command)
     # ld.add_action(spawn_turtlebot4_2_command)
     return ld
+
+
+
+
+# ----------------------------------------------------- Topic fields ------------------------------------------------------ #
+# know what are the fields of different topics to interface with them.                                                      #
+# ------------------------------------------------------------------------------------------------------------------------- #
+
+
+# --------------------------------- nav_msgs/msg/Odometry --------------------------------- #
+
+# This represents an estimate of a position and velocity in free space.
+# The pose in this message should be specified in the coordinate frame given by header.frame_id
+# The twist in this message should be specified in the coordinate frame given by the child_frame_id
+
+# # Includes the frame id of the pose parent.
+# std_msgs/Header header
+# 	builtin_interfaces/Time stamp
+# 		int32 sec
+# 		uint32 nanosec
+# 	string frame_id
+
+# # Frame id the pose points to. The twist is in this coordinate frame.
+# string child_frame_id
+
+# # Estimated pose that is typically relative to a fixed world frame.
+# geometry_msgs/PoseWithCovariance pose
+# 	Pose pose
+# 		Point position
+# 			float64 x
+# 			float64 y
+# 			float64 z
+# 		Quaternion orientation
+# 			float64 x 0
+# 			float64 y 0
+# 			float64 z 0
+# 			float64 w 1
+# 	float64[36] covariance
+
+# # Estimated linear and angular velocity relative to child_frame_id.
+# geometry_msgs/TwistWithCovariance twist
+# 	Twist twist
+# 		Vector3  linear
+# 			float64 x
+# 			float64 y
+# 			float64 z
+# 		Vector3  angular
+# 			float64 x
+# 			float64 y
+# 			float64 z
+# 	float64[36] covariance
+
+# ----------------------------------------------------------------------------------------- #
+
+
+# --------------------------------- nav_msgs/msg/Odometry --------------------------------- #
+
+# # This expresses velocity in free space broken into its linear and angular parts.
+
+# Vector3  linear
+# 	float64 x
+# 	float64 y
+# 	float64 z
+# Vector3  angular
+# 	float64 x
+# 	float64 y
+# 	float64 z
+
+# ----------------------------------------------------------------------------------------- #
+
+
+# --------------------------------- geometry_msgs/msg/PoseArray --------------------------------- #
+
+
+# # An array of poses with a header for global reference.
+
+# std_msgs/Header header
+# 	builtin_interfaces/Time stamp
+# 		int32 sec
+# 		uint32 nanosec
+# 	string frame_id
+
+# Pose[] poses
+# 	Point position
+# 		float64 x
+# 		float64 y
+# 		float64 z
+# 	Quaternion orientation
+# 		float64 x 0
+# 		float64 y 0
+# 		float64 z 0
+# 		float64 w 1
+
+
+# ----------------------------------------------------------------------------------------- #
+
+# --------------------------------- sensor_msgs/msg/LaserScan --------------------------------- #
+
+# # Single scan from a planar laser range-finder
+# #
+# # If you have another ranging device with different behavior (e.g. a sonar
+# # array), please find or create a different message, since applications
+# # will make fairly laser-specific assumptions about this data
+
+# std_msgs/Header header # timestamp in the header is the acquisition time of
+# 	builtin_interfaces/Time stamp
+# 		int32 sec
+# 		uint32 nanosec
+# 	string frame_id
+#                              # the first ray in the scan.
+#                              #
+#                              # in frame frame_id, angles are measured around
+#                              # the positive Z axis (counterclockwise, if Z is up)
+#                              # with zero angle being forward along the x axis
+
+# float32 angle_min            # start angle of the scan [rad]
+# float32 angle_max            # end angle of the scan [rad]
+# float32 angle_increment      # angular distance between measurements [rad]
+
+# float32 time_increment       # time between measurements [seconds] - if your scanner
+#                              # is moving, this will be used in interpolating position
+#                              # of 3d points
+# float32 scan_time            # time between scans [seconds]
+
+# float32 range_min            # minimum range value [m]
+# float32 range_max            # maximum range value [m]
+
+# float32[] ranges             # range data [m]
+#                              # (Note: values < range_min or > range_max should be discarded)
+# float32[] intensities        # intensity data [device-specific units].  If your
+#                              # device does not provide intensities, please leave
+#                              # the array empty.
+
+
+# ----------------------------------------------------------------------------------------- #
+
+
+# --------------------------------- sensor_msgs/msg/LaserScan --------------------------------- #
+
+
+
+# ----------------------------------------------------------------------------------------- #

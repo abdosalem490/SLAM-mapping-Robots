@@ -1,6 +1,4 @@
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/launch/slam_robots_main.launch.py
-/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/launch/slam_robots_turtlebots.launch.py
-/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/launch/slam_robots_bot3.launch.py
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/world.sdf
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot2.sdf
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot7.sdf
