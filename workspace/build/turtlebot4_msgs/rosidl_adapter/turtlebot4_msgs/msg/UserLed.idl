@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtlebot4_msgs/msg/UserLed.msg
+// generated code does not contain a copyright notice
+
+
+module turtlebot4_msgs {
+  module msg {
+    module UserLed_Constants {
+      @verbatim (language="comment", text=
+        "Available LEDs")
+      const uint8 USER_LED_1 = 0;
+      const uint8 USER_LED_2 = 1;
+      @verbatim (language="comment", text=
+        "Available colors")
+      const uint8 COLOR_OFF = 0;
+      const uint8 COLOR_GREEN = 1;
+      const uint8 COLOR_RED = 2;
+      const uint8 COLOR_YELLOW = 3;
+    };
+    @verbatim (language="comment", text=
+      "This message sets the state of the user LEDs" "\n"
+      "Blink period is the time in milliseconds during which the ON/OFF cycle occurs" "\n"
+      "The duty cycle represents the percentage of the blink period that the LED is ON" "\n"
+      "A duty cycle of 1.0 would set the LED to always be ON, whereas a duty cycle of 0.0 is always OFF" "\n"
+      "A blink period of 1000ms with a duty cycle of 0.6 will have the LED turn ON for 600ms, " "\n"
+      "then OFF for 400ms")
+    struct UserLed {
+      @verbatim (language="comment", text=
+        "Which available LED to use")
+      uint8 led;
+
+      @verbatim (language="comment", text=
+        "Which color to set the LED to")
+      uint8 color;
+
+      @verbatim (language="comment", text=
+        "Blink period in ms")
+      uint32 blink_period;
+
+      @verbatim (language="comment", text=
+        "Duty cycle (0.0 to 1.0)")
+      double duty_cycle;
+    };
+  };
+};

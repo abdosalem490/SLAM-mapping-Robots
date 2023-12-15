@@ -1,0 +1,9 @@
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_description/CMakeFiles/uninstall.dir
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_description/CMakeFiles/turtlebot4_description_uninstall.dir
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_description/CMakeFiles/test.dir
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_description/CMakeFiles/edit_cache.dir
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_description/CMakeFiles/rebuild_cache.dir
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_description/CMakeFiles/list_install_components.dir
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_description/CMakeFiles/install.dir
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_description/CMakeFiles/install/local.dir
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_description/CMakeFiles/install/strip.dir

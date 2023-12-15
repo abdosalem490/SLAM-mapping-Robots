@@ -1,0 +1,78 @@
+[0.151s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_simulator:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_bringup:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_gui_plugins:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots:/opt/ros/humble /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_ignition_toolbox -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox
+[0.194s] -- The C compiler identification is GNU 11.4.0
+[0.243s] -- The CXX compiler identification is GNU 11.4.0
+[0.249s] -- Detecting C compiler ABI info
+[0.311s] -- Detecting C compiler ABI info - done
+[0.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.319s] -- Detecting C compile features
+[0.319s] -- Detecting C compile features - done
+[0.322s] -- Detecting CXX compiler ABI info
+[0.385s] -- Detecting CXX compiler ABI info - done
+[0.393s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.393s] -- Detecting CXX compile features
+[0.393s] -- Detecting CXX compile features - done
+[0.396s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.564s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.654s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.697s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.702s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.711s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.725s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.744s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.817s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.819s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.903s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.930s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.978s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.988s] -- Looking for pthread.h
+[1.046s] -- Looking for pthread.h - found
+[1.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.106s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.108s] -- Found Threads: TRUE  
+[1.284s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.387s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.519s] -- Found turtlebot4_msgs: 1.0.4 (/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake)
+[1.538s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.614s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.614s] -- Configured cppcheck include dirs: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_ignition_toolbox/include
+[1.614s] -- Configured cppcheck exclude dirs and/or files: 
+[1.615s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.615s] -- Configured cpplint exclude dirs and/or files: 
+[1.615s] -- Added test 'lint_cmake' to check CMake code style
+[1.616s] -- Added test 'uncrustify' to check C / C++ code style
+[1.616s] -- Configured uncrustify additional arguments: 
+[1.617s] -- Added test 'xmllint' to check XML markup files
+[1.618s] -- Configuring done
+[1.630s] -- Generating done
+[1.632s] -- Build files have been written to: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox
+[1.640s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_simulator:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_bringup:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_gui_plugins:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots:/opt/ros/humble /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_ignition_toolbox -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox
+[1.641s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_simulator:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_bringup:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_gui_plugins:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots:/opt/ros/humble /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox -- -j16 -l16
+[1.679s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot4_ignition_toolbox_lib.dir/src/hmi_node.cpp.o[0m
+[1.679s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot4_ignition_toolbox_lib.dir/src/hmi_main.cpp.o[0m
+[14.272s] [ 60%] [32m[1mLinking CXX static library libturtlebot4_ignition_toolbox_lib.a[0m
+[14.507s] [ 60%] Built target turtlebot4_ignition_toolbox_lib
+[14.525s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlebot4_ignition_hmi_node.dir/src/hmi_main.cpp.o[0m
+[17.258s] [100%] [32m[1mLinking CXX executable turtlebot4_ignition_hmi_node[0m
+[17.806s] [100%] Built target turtlebot4_ignition_hmi_node
+[17.814s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_simulator:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_bringup:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_gui_plugins:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots:/opt/ros/humble /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox -- -j16 -l16
+[17.833s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_simulator:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_bringup:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_gui_plugins:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots:/opt/ros/humble /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox
+[17.839s] -- Install configuration: ""
+[17.839s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/lib/turtlebot4_ignition_toolbox/turtlebot4_ignition_hmi_node
+[17.843s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/lib/turtlebot4_ignition_toolbox/turtlebot4_ignition_hmi_node" to ""
+[17.843s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/package_run_dependencies/turtlebot4_ignition_toolbox
+[17.843s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/parent_prefix_path/turtlebot4_ignition_toolbox
+[17.843s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/ament_prefix_path.sh
+[17.843s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/ament_prefix_path.dsv
+[17.843s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/path.sh
+[17.843s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/path.dsv
+[17.843s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.bash
+[17.844s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.sh
+[17.844s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.zsh
+[17.844s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.dsv
+[17.844s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/package.dsv
+[17.844s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/packages/turtlebot4_ignition_toolbox
+[17.844s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.844s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/turtlebot4_ignition_toolboxConfig.cmake
+[17.844s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/turtlebot4_ignition_toolboxConfig-version.cmake
+[17.844s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/package.xml
+[17.846s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_simulator:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_bringup:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_toolbox:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_ignition_gui_plugins:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_description:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots:/opt/ros/humble /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_ignition_toolbox

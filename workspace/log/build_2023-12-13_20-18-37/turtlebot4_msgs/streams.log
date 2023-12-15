@@ -1,0 +1,283 @@
+[0.339s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_msgs -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs
+[0.385s] -- The C compiler identification is GNU 11.4.0
+[0.437s] -- The CXX compiler identification is GNU 11.4.0
+[0.445s] -- Detecting C compiler ABI info
+[0.503s] -- Detecting C compiler ABI info - done
+[0.511s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.511s] -- Detecting C compile features
+[0.512s] -- Detecting C compile features - done
+[0.515s] -- Detecting CXX compiler ABI info
+[0.585s] -- Detecting CXX compiler ABI info - done
+[0.594s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.594s] -- Detecting CXX compile features
+[0.595s] -- Detecting CXX compile features - done
+[0.597s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.767s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.860s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.939s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.944s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.952s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.997s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.037s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.314s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.728s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.749s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.750s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.775s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.775s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.775s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.776s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.794s] -- Found PythonExtra: .so  
+[1.828s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.829s] -- Added test 'lint_cmake' to check CMake code style
+[1.830s] -- Added test 'xmllint' to check XML markup files
+[1.834s] -- Configuring done
+[1.864s] -- Generating done
+[1.866s] -- Build files have been written to: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs
+[1.872s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_msgs -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs
+[1.874s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs -- -j16 -l16
+[1.914s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.492s] [  2%] Built target turtlebot4_msgs__cpp
+[2.517s] [  2%] Built target ament_cmake_python_copy_turtlebot4_msgs
+[2.526s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.996s] [  6%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_led__type_support.cpp.o[0m
+[3.344s] [  8%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_display__type_support.cpp.o[0m
+[3.684s] [ 10%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_button__type_support.cpp.o[0m
+[4.003s] [ 12%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.071s] [ 12%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_cpp
+[4.315s] running egg_info
+[4.316s] creating turtlebot4_msgs.egg-info
+[4.316s] writing turtlebot4_msgs.egg-info/PKG-INFO
+[4.316s] writing dependency_links to turtlebot4_msgs.egg-info/dependency_links.txt
+[4.316s] writing top-level names to turtlebot4_msgs.egg-info/top_level.txt
+[4.316s] writing manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[4.318s] reading manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[4.319s] writing manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[4.341s] [ 12%] Built target ament_cmake_python_build_turtlebot4_msgs_egg
+[4.349s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.824s] [ 17%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_led__type_support.cpp.o[0m
+[5.174s] [ 19%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_display__type_support.cpp.o[0m
+[5.524s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_button__type_support.cpp.o[0m
+[5.881s] [ 23%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.944s] [ 23%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp
+[5.952s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.305s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_led__type_support.cpp.o[0m
+[6.527s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_display__type_support.cpp.o[0m
+[6.767s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_button__type_support.cpp.o[0m
+[7.003s] [ 34%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_cpp.so[0m
+[7.035s] [ 34%] Built target turtlebot4_msgs__rosidl_typesupport_cpp
+[7.044s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.583s] [ 38%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_led__functions.c.o[0m
+[7.618s] [ 40%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_display__functions.c.o[0m
+[7.666s] [ 42%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_button__functions.c.o[0m
+[7.704s] [ 44%] [32m[1mLinking C shared library libturtlebot4_msgs__rosidl_generator_c.so[0m
+[7.733s] [ 44%] Built target turtlebot4_msgs__rosidl_generator_c
+[7.742s] [ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.161s] [ 48%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_led__type_support_c.cpp.o[0m
+[8.452s] [ 51%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_display__type_support_c.cpp.o[0m
+[8.775s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_button__type_support_c.cpp.o[0m
+[9.083s] [ 55%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.141s] [ 55%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c
+[9.150s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.559s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_led__type_support.cpp.o[0m
+[9.585s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_display__type_support.cpp.o[0m
+[9.608s] [ 63%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_button__type_support.cpp.o[0m
+[9.632s] [ 65%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_c.so[0m
+[9.666s] [ 65%] Built target turtlebot4_msgs__rosidl_typesupport_c
+[9.673s] [ 68%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.118s] [ 70%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_led__type_support.c.o[0m
+[10.142s] [ 72%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_display__type_support.c.o[0m
+[10.169s] [ 74%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_button__type_support.c.o[0m
+[10.196s] [ 76%] [32m[1mLinking C shared library libturtlebot4_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.218s] [ 76%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c
+[10.236s] [ 76%] Built target turtlebot4_msgs
+[10.255s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.019s] [ 78%] Built target turtlebot4_msgs__py
+[11.039s] [ 80%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o[0m
+[11.117s] [ 82%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o[0m
+[11.206s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o[0m
+[11.297s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/libturtlebot4_msgs__rosidl_generator_py.so[0m
+[11.327s] [ 87%] Built target turtlebot4_msgs__rosidl_generator_py
+[11.341s] [ 89%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.427s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.455s] [ 91%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.471s] [ 93%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[11.562s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.590s] [ 95%] Built target turtlebot4_msgs__rosidl_typesupport_c__pyext
+[11.605s] [ 97%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.701s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.727s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c__pyext
+[11.736s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs -- -j16 -l16
+[11.798s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs
+[11.805s] -- Install configuration: ""
+[11.805s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot4_msgs
+[11.805s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs
+[11.805s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg
+[11.805s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_button.h
+[11.805s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.805s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail
+[11.806s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__struct.h
+[11.806s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__functions.c
+[11.806s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__functions.c
+[11.806s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__type_support.h
+[11.806s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__struct.h
+[11.806s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__functions.h
+[11.806s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__struct.h
+[11.806s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__type_support.h
+[11.806s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__functions.c
+[11.807s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__type_support.h
+[11.807s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__functions.h
+[11.807s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__functions.h
+[11.807s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_led.h
+[11.807s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_display.h
+[11.807s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.sh
+[11.807s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.dsv
+[11.807s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_c.so
+[11.807s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_c.so" to ""
+[11.807s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs
+[11.808s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg
+[11.808s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.808s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail
+[11.808s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_c.h
+[11.808s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_c.h
+[11.808s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_c.h
+[11.808s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so
+[11.808s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[11.808s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs
+[11.808s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg
+[11.809s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.809s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail
+[11.809s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__type_support.c
+[11.809s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_c.h
+[11.809s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_c.h
+[11.809s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_c.h
+[11.809s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__type_support.c
+[11.809s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__type_support.c
+[11.809s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_c.so
+[11.809s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_c.so" to ""
+[11.809s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_c.so
+[11.809s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_c.so" to ""
+[11.810s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs
+[11.810s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg
+[11.810s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__struct.hpp
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__struct.hpp
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__builder.hpp
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__traits.hpp
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__builder.hpp
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__builder.hpp
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__struct.hpp
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__traits.hpp
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__traits.hpp
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_button.hpp
+[11.810s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_led.hpp
+[11.811s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/user_display.hpp
+[11.811s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs
+[11.811s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg
+[11.811s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.811s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail
+[11.811s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/dds_fastrtps
+[11.811s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_cpp.hpp
+[11.811s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_cpp.hpp
+[11.811s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_cpp.hpp
+[11.811s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.811s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.811s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs
+[11.811s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg
+[11.812s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail
+[11.812s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__type_support.cpp
+[11.812s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_cpp.hpp
+[11.812s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_cpp.hpp
+[11.812s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__type_support.cpp
+[11.812s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_cpp.hpp
+[11.812s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/include/turtlebot4_msgs/turtlebot4_msgs/msg/detail/user_display__type_support.cpp
+[11.812s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so
+[11.812s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[11.812s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_cpp.so
+[11.812s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_cpp.so" to ""
+[11.812s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.sh
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.dsv
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs-1.0.4-py3.10.egg-info
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs-1.0.4-py3.10.egg-info/dependency_links.txt
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs-1.0.4-py3.10.egg-info/PKG-INFO
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs-1.0.4-py3.10.egg-info/top_level.txt
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs-1.0.4-py3.10.egg-info/SOURCES.txt
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/libturtlebot4_msgs__rosidl_generator_py.so
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.813s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/__init__.py
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_button.py
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_display_s.c
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_led.py
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_led_s.c
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_display.py
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/__init__.py
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_button_s.c
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[11.814s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c
+[11.844s] Listing '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs'...
+[11.844s] Compiling '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/__init__.py'...
+[11.844s] Listing '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg'...
+[11.844s] Compiling '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/__init__.py'...
+[11.845s] Compiling '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_button.py'...
+[11.845s] Compiling '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_display.py'...
+[11.845s] Compiling '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/msg/_user_led.py'...
+[11.849s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.849s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.849s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.849s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.850s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.850s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.850s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_py.so
+[11.850s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_py.so" to ""
+[11.850s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.idl
+[11.850s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.idl
+[11.850s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.idl
+[11.851s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.msg
+[11.851s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.msg
+[11.851s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.msg
+[11.851s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot4_msgs
+[11.851s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot4_msgs
+[11.851s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.sh
+[11.851s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.dsv
+[11.851s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.sh
+[11.851s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.dsv
+[11.851s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.bash
+[11.852s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.sh
+[11.852s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.zsh
+[11.852s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.dsv
+[11.852s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/package.dsv
+[11.852s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/ament_index/resource_index/packages/turtlebot4_msgs
+[11.852s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cExport.cmake
+[11.852s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.852s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.852s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.853s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.853s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.853s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport.cmake
+[11.853s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.853s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_cppExport.cmake
+[11.853s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.853s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.853s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.853s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.854s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport.cmake
+[11.854s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.854s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_pyExport.cmake
+[11.854s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/export_turtlebot4_msgs__rosidl_generator_pyExport-noconfig.cmake
+[11.854s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake-extras.cmake
+[11.854s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.854s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.854s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.854s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.855s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.855s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.855s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig.cmake
+[11.855s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig-version.cmake
+[11.855s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/package.xml
+[11.857s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_msgs

@@ -1,0 +1,163 @@
+[0.055s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/slam_robots': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/slam_robots -- -j16 -l16
+[0.100s] [100%] Built target gazebo_middleware
+[0.108s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/slam_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/slam_robots -- -j16 -l16
+[0.130s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/slam_robots': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/slam_robots
+[0.135s] -- Install configuration: ""
+[0.135s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/lib/slam_robots/gazebo_middleware
+[0.135s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/launch
+[0.135s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/launch/slam_robots_main_turtlebot4.launch.py
+[0.135s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/launch/slam_robots_main.launch.py
+[0.136s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds
+[0.136s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/world.sdf
+[0.136s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models
+[0.136s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots
+[0.136s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot2.sdf
+[0.136s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot7.sdf
+[0.137s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot10.sdf
+[0.137s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot3.sdf
+[0.137s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot1.sdf
+[0.137s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot4.sdf
+[0.137s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot8.sdf
+[0.137s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot6.sdf
+[0.137s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot5.sdf
+[0.138s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot9.sdf
+[0.138s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds
+[0.138s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/robots.sdf
+[0.138s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/fourth_year.sdf
+[0.138s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/lab4.sdf
+[0.138s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/first_year.sdf
+[0.138s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/second_year.sdf
+[0.138s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/maincorridor.sdf
+[0.138s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/lab3.sdf
+[0.139s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/third_year.sdf
+[0.139s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/lab2.sdf
+[0.139s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/library.sdf
+[0.139s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/sub_worlds/lab1.sdf
+[0.140s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files
+[0.140s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/chair.FCStd1
+[0.140s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/lecture_theater_platform.FCStd
+[0.140s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/computer_table.FCStd
+[0.140s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/stadium.FCStd1
+[0.141s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/smart_board.FCStd
+[0.141s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/wall.FCStd1
+[0.141s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/table.FCStd1
+[0.141s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/corridor.FCStd
+[0.141s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/wall.FCStd
+[0.141s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/smart_board.FCStd1
+[0.142s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/corridor.FCStd1
+[0.142s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/chair.FCStd
+[0.142s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/wall_with_window.FCStd
+[0.142s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/table.FCStd
+[0.142s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/lecture_theater_platform.FCStd1
+[0.142s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/stadium.FCStd
+[0.143s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/wall_with_window.FCStd1
+[0.143s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad design files/computer_table.FCStd1
+[0.143s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models
+[0.143s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person
+[0.143s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/model.sdf
+[0.143s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/model.config
+[0.144s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/thumbnails
+[0.144s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/thumbnails/4.png
+[0.144s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/thumbnails/5.png
+[0.144s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/thumbnails/2.png
+[0.144s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/thumbnails/1.png
+[0.144s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/thumbnails/3.png
+[0.145s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/meshes
+[0.145s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/meshes/standing.dae
+[0.145s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials
+[0.145s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures
+[0.145s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/eyebrow001-unmodified.png
+[0.146s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/tshirt02_normals.png
+[0.146s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/male02_diffuse_black-unmodified.png
+[0.146s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/male02_diffuse_black.png
+[0.146s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/tshirt02_texture.png
+[0.146s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/eyebrow001.png
+[0.147s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/green_eye.png
+[0.147s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/teeth.png
+[0.147s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/jeans_basic_diffuse.png
+[0.147s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/jeans01_normals.png
+[0.147s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Standing_person/materials/textures/young_lightskinned_male_diffuse.png
+[0.148s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female
+[0.148s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/model.sdf
+[0.148s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/model.config
+[0.148s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/thumbnails
+[0.149s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/thumbnails/4.png
+[0.149s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/thumbnails/5.png
+[0.149s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/thumbnails/2.png
+[0.150s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/thumbnails/1.png
+[0.150s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/thumbnails/3.png
+[0.150s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/meshes
+[0.151s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/meshes/casual_female.dae
+[0.151s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials
+[0.151s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures
+[0.152s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/eyelashes01.png
+[0.152s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/female_casualsuit01_diffuse.png
+[0.153s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/female_casualsuit02_diffuse.png
+[0.153s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/female_casualsuit02_normal.png
+[0.153s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/young_lightskinned_female_diffuse.png
+[0.154s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/eyebrow002.png
+[0.154s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/casual_female.png
+[0.154s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/brown_eye.png
+[0.154s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/shoes05_diffuse.png
+[0.155s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/ponytail01_diffuse.png
+[0.155s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/female_casualsuit01_normal.png
+[0.155s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Casual_female/materials/textures/tongue01_diffuse.png
+[0.155s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person
+[0.155s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/model.sdf
+[0.156s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/model.config
+[0.156s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/thumbnails
+[0.156s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/thumbnails/4.png
+[0.156s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/thumbnails/5.png
+[0.156s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/thumbnails/2.png
+[0.157s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/thumbnails/1.png
+[0.157s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/thumbnails/3.png
+[0.157s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/meshes
+[0.157s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/meshes/walking.dae
+[0.157s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials
+[0.157s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures
+[0.158s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/eyebrow001-unmodified.png
+[0.158s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/tshirt02_normals.png
+[0.158s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/male02_diffuse_black-unmodified.png
+[0.159s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/male02_diffuse_black.png
+[0.159s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/tshirt02_texture.png
+[0.159s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/eyebrow001.png
+[0.159s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/green_eye.png
+[0.160s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/teeth.png
+[0.160s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/jeans_basic_diffuse.png
+[0.160s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/jeans01_normals.png
+[0.160s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/fuel_models/Walking_person/materials/textures/young_lightskinned_male_diffuse.png
+[0.160s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae
+[0.161s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/lecture_theater_platform.dae
+[0.161s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/stadium.sdf
+[0.161s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/wall.dae
+[0.161s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/smart_board.sdf
+[0.161s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/computer_table.dae
+[0.161s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/table.dae
+[0.161s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/corridor.dae
+[0.162s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/wall_with_window.dae
+[0.162s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/computer_table.sdf
+[0.162s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/chair.dae
+[0.162s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/chair.sdf
+[0.162s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/lecture_theater_platform.sdf
+[0.162s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/wall.sdf
+[0.162s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/smart_board.dae
+[0.162s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/corridor.sdf
+[0.163s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/wall_with_window.sdf
+[0.163s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/stadium.dae
+[0.163s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/freeCad_dae/table.sdf
+[0.163s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/ament_index/resource_index/package_run_dependencies/slam_robots
+[0.163s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/ament_index/resource_index/parent_prefix_path/slam_robots
+[0.163s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/environment/ament_prefix_path.sh
+[0.164s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/environment/ament_prefix_path.dsv
+[0.164s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/environment/path.sh
+[0.164s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/environment/path.dsv
+[0.164s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/local_setup.bash
+[0.164s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/local_setup.sh
+[0.164s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/local_setup.zsh
+[0.165s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/local_setup.dsv
+[0.165s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/package.dsv
+[0.165s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/ament_index/resource_index/packages/slam_robots
+[0.165s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/cmake/slam_robotsConfig.cmake
+[0.165s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/cmake/slam_robotsConfig-version.cmake
+[0.165s] -- Up-to-date: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/package.xml
+[0.166s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/slam_robots' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/slam_robots

@@ -1,0 +1,6 @@
+msg/UserButton.idl
+msg/UserButton.msg
+msg/UserDisplay.idl
+msg/UserDisplay.msg
+msg/UserLed.idl
+msg/UserLed.msg

@@ -38,9 +38,7 @@ def generate_launch_description():
     # ------------------------------------------------------------------------------------------------------------------------- #
     pkg_ros_ign_gazebo = get_package_share_directory('ros_ign_gazebo'); # get gazebo share directory through which we can run gazebo
     pkg_slam_robots = get_package_share_directory('slam_robots') # get the share directory of the current packate ('slam_robots')
-    # pkg_turtlebot4_ignition_bringup = get_package_share_directory('turtlebot4_ignition_bringup')
-    # pkg_turtlebot4_description = get_package_share_directory('turtlebot4_description')
-    
+   
     # ------------------------------------------------------ Paths ------------------------------------------------------ #
     # used to extract the paths of the share files of different packages, as if any package wanted to allow anyone to     #
     # run it or configure it, that shall be done via package launch files where every launch file can have paramters to   #
@@ -48,20 +46,12 @@ def generate_launch_description():
     # ------------------------------------------------------------------------------------------------------------------- #
     ign_gazebo_launch = PathJoinSubstitution([pkg_ros_ign_gazebo, 'launch', 'ign_gazebo.launch.py'])    # get the path of ignition gazebo launch file
     slam_robots_world = PathJoinSubstitution([pkg_slam_robots, 'worlds', 'world.sdf'])  # get the path of the world.sdf to run the robot on it
-    # slam_robots_turtlebots_launch = PathJoinSubstitution([pkg_slam_robots, 'launch', 'slam_robots_turtlebots.launch.py'])    # get the path of another launch file in same project that's responsible for bringing up turtlebots to life 
-    # robot_spawn_launch = PathJoinSubstitution([pkg_turtlebot4_ignition_bringup, 'launch', 'turtlebot4_spawn.launch.py'])
-    # pkg_irobot_create_description = get_package_share_directory('irobot_create_description')
 
 
     # ------------------------------------------------------ actions ------------------------------------------------------ #
     # used to run the launch files of different packages given the paramters to those packages.                             #
     # --------------------------------------------------------------------------------------------------------------------- #
 
-    # set IGN_GAZEBO_RESOURCE_PATH environment variable to the parent folder of our model. so that gazebo can see all the include in the world directories
-    # param: cmd a list where the first item is the executable and the rest are arguments to the executable
-    # param: cwd the directory in which to run the executable
-    # os.environ['IGN_GAZEBO_RESOURCE_PATH'] = os.environ['HOME']+'/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds'
-    
     # Set ignition resource path
     ign_resource_path = SetEnvironmentVariable(
         name='IGN_GAZEBO_RESOURCE_PATH',
@@ -78,7 +68,11 @@ def generate_launch_description():
     )
 
     # ignition bridge which is used to make gazebo simulator topics seen be ROS2, refer to the end of file to know
-    # what are the fields of each topic
+    # what are the fields of each topic, 
+    #   -   @ means both directions
+    #   -   [ means from gazebo to ros2
+    #   -   ] means from ros2 to gazebo
+    # NOTE: bridge transformations are all drived from here -> https://github.com/gazebosim/ros_gz/blob/humble/ros_gz_bridge/README.md
     bridge = Node(
         package='ros_ign_bridge',
         executable='parameter_bridge',
@@ -150,18 +144,26 @@ def generate_launch_description():
         output='screen'
     )
 
-    
+
+    # launch our middleware, in other words the file that is in the source code
+    # gazebo_middleware = Node(
+    #     package='slam_robots',
+    #     executable='gazebo_middleware',
+    #     output= 'screen'
+    # )
+
+    gazebo_middleware = Node(
+        package='slam_robots',
+        executable='gazebo_mid',
+        output= 'screen'
+    )
 
     # Create launch description and add actions
     ld = LaunchDescription(None)
     ld.add_action(ign_resource_path)
     ld.add_action(ignition_gazebo_command)
     ld.add_action(bridge)
-
-    # ld.add_action(robot2_spawn)
-    # ld.add_action(robot1_spawn)
-    # ld.add_action(spawn_turtlebot4_1_command)
-    # ld.add_action(spawn_turtlebot4_2_command)
+    # ld.add_action(gazebo_middleware)
     return ld
 
 
@@ -218,7 +220,7 @@ def generate_launch_description():
 # ----------------------------------------------------------------------------------------- #
 
 
-# --------------------------------- nav_msgs/msg/Odometry --------------------------------- #
+# --------------------------------- geometry_msgs/msg/Twist --------------------------------- #
 
 # # This expresses velocity in free space broken into its linear and angular parts.
 
@@ -300,7 +302,50 @@ def generate_launch_description():
 # ----------------------------------------------------------------------------------------- #
 
 
-# --------------------------------- sensor_msgs/msg/LaserScan --------------------------------- #
+# --------------------------------- sensor_msgs/msg/PointCloud2 --------------------------------- #
+
+# # This message holds a collection of N-dimensional points, which may
+# # contain additional information such as normals, intensity, etc. The
+# # point data is stored as a binary blob, its layout described by the
+# # contents of the "fields" array.
+# #
+# # The point cloud data may be organized 2d (image-like) or 1d (unordered).
+# # Point clouds organized as 2d images may be produced by camera depth sensors
+# # such as stereo or time-of-flight.
+
+# # Time of sensor data acquisition, and the coordinate frame ID (for 3d points).
+# std_msgs/Header header
+# 	builtin_interfaces/Time stamp
+# 		int32 sec
+# 		uint32 nanosec
+# 	string frame_id
+
+# # 2D structure of the point cloud. If the cloud is unordered, height is
+# # 1 and width is the length of the point cloud.
+# uint32 height
+# uint32 width
+
+# # Describes the channels and their layout in the binary data blob.
+# PointField[] fields
+# 	uint8 INT8    = 1
+# 	uint8 UINT8   = 2
+# 	uint8 INT16   = 3
+# 	uint8 UINT16  = 4
+# 	uint8 INT32   = 5
+# 	uint8 UINT32  = 6
+# 	uint8 FLOAT32 = 7
+# 	uint8 FLOAT64 = 8
+# 	string name      #
+# 	uint32 offset    #
+# 	uint8  datatype  #
+# 	uint32 count     #
+
+# bool    is_bigendian # Is this data bigendian?
+# uint32  point_step   # Length of a point in bytes
+# uint32  row_step     # Length of a row in bytes
+# uint8[] data         # Actual point data, size is (row_step*height)
+
+# bool is_dense        # True if there are no invalid points
 
 
 

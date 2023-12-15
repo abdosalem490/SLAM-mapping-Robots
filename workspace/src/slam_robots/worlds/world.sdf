@@ -19,14 +19,18 @@
     </plugin>
 
     <!-- related to the robot -->
-    <plugin
+    <!-- <plugin
       filename="libignition-gazebo-sensors-system.so"
       name="ignition::gazebo::systems::Sensors">
       <render_engine>ogre2</render_engine>
+    </plugin> -->
+    
+    <plugin filename="libignition-gazebo-sensors-system.so" name="ignition::gazebo::systems::Sensors">
+      <render_engine>ogre</render_engine>
     </plugin>
     
+    <plugin filename="libignition-gazebo-contact-system.so" name="ignition::gazebo::systems::Contact"></plugin>
     
-
     <!-- To remove that grid on the ground-->
     <scene>
       <ambient>1 1 1 1</ambient>
@@ -95,7 +99,7 @@
     <pose relative_to='maincorridor'>0 0 0 0 0 0 </pose>
   </include>
 
-  <!-- <include>
+  <include>
     <name>fourth_year</name>
     <uri>./models/sub_worlds/fourth_year.sdf</uri>
     <pose relative_to='maincorridor'>-14 27 0 0 0 0 </pose>
@@ -147,7 +151,7 @@
     <name>lab4</name>
     <uri>./models/sub_worlds/lab4.sdf</uri>
     <pose relative_to='maincorridor'>4 27 0 0 0 0 </pose>
-  </include>  -->
+  </include> 
 
   </world>
 </sdf>

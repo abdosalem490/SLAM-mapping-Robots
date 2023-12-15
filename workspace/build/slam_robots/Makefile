@@ -197,6 +197,43 @@ slam_robots_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/slam_robots_uninstall.dir/build.make CMakeFiles/slam_robots_uninstall.dir/build
 .PHONY : slam_robots_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named gazebo_middleware
+
+# Build rule for target.
+gazebo_middleware: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gazebo_middleware
+.PHONY : gazebo_middleware
+
+# fast build rule for target.
+gazebo_middleware/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gazebo_middleware.dir/build.make CMakeFiles/gazebo_middleware.dir/build
+.PHONY : gazebo_middleware/fast
+
+src/gazebo_middleware.o: src/gazebo_middleware.cpp.o
+.PHONY : src/gazebo_middleware.o
+
+# target to build an object file
+src/gazebo_middleware.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gazebo_middleware.dir/build.make CMakeFiles/gazebo_middleware.dir/src/gazebo_middleware.cpp.o
+.PHONY : src/gazebo_middleware.cpp.o
+
+src/gazebo_middleware.i: src/gazebo_middleware.cpp.i
+.PHONY : src/gazebo_middleware.i
+
+# target to preprocess a source file
+src/gazebo_middleware.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gazebo_middleware.dir/build.make CMakeFiles/gazebo_middleware.dir/src/gazebo_middleware.cpp.i
+.PHONY : src/gazebo_middleware.cpp.i
+
+src/gazebo_middleware.s: src/gazebo_middleware.cpp.s
+.PHONY : src/gazebo_middleware.s
+
+# target to generate assembly for a file
+src/gazebo_middleware.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gazebo_middleware.dir/build.make CMakeFiles/gazebo_middleware.dir/src/gazebo_middleware.cpp.s
+.PHONY : src/gazebo_middleware.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... slam_robots_uninstall"
 	@echo "... uninstall"
+	@echo "... gazebo_middleware"
+	@echo "... src/gazebo_middleware.o"
+	@echo "... src/gazebo_middleware.i"
+	@echo "... src/gazebo_middleware.s"
 .PHONY : help
 
 

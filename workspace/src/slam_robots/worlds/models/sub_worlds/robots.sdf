@@ -33,7 +33,7 @@
       <uri>models/robots/robot5.sdf</uri>
       <pose>-23 -39 0 0 0 0 </pose>
     </include>
-
+    
     <include>
       <name>robot6</name>
       <uri>models/robots/robot6.sdf</uri>

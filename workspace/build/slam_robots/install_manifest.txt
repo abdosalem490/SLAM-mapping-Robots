@@ -1,3 +1,5 @@
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/lib/slam_robots/gazebo_middleware
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/launch/slam_robots_main_turtlebot4.launch.py
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/launch/slam_robots_main.launch.py
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/world.sdf
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds/models/robots/robot2.sdf

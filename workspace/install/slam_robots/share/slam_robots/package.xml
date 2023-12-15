@@ -13,15 +13,14 @@
   <!-- because there exist multiple build types like ament_cmake, ament_python and cmake-->
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <!-- becuase we need turtlebot4 packages during building and execution-->
-  <!-- <depend>turtlebot4_ignition_bringup</depend> -->
-
   <!-- This helps make sure that the ros2 launch command is available after building your package. It also ensures that all launch file formats are recognized. -->
   <exec_depend>ros2launch</exec_depend>
 
-  <!-- for testing (not used in our project) --> 
-  <!-- <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend> -->
+  <!-- notify that our package depends on other package that's used in src file -->
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
   
   <!-- To export important data to the build tool "colcon" -->
   <export>
