@@ -281,6 +281,7 @@
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/dummy/config/ball_tracker_params_sim.yaml
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/dummy/config/map.rviz
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/dummy/config/empty.yaml
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/image_system_comarison.png
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/inertial_macros.xacro
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/depth_camera.xacro
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/robot.urdf.xacro
@@ -291,6 +292,8 @@
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/lidar.xacro
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/rviz/view_robot.rviz
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/rviz/drive_bot.rviz
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/rviz/robot_depth_camera.rviz
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/rviz/robot_lidar_visualize.rviz
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/face.xacro
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/ament_index/resource_index/package_run_dependencies/slam_robots
 /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/ament_index/resource_index/parent_prefix_path/slam_robots

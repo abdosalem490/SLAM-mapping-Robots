@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
+    <!-- depth camera code is same as camera but instead of type="camera", it's type="depth" and format of image -->
+
     <joint name="camera_joint" type="fixed">
         <parent link="chassis"/>
         <child link="camera_link"/>
@@ -25,8 +27,6 @@
 
     <link name="camera_link_optical"></link>
 
-
-
     <gazebo reference="camera_link">
         <material>Gazebo/Red</material>
 
@@ -43,11 +43,13 @@
                 </image>
                 <clip>
                     <near>0.05</near>
-                    <far>8.0</far>
+                    <far>12.0</far>
                 </clip>
             </camera>
             <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
                 <frame_name>camera_link_optical</frame_name>
+
+                <!-- still don't know the use of these depth as far and near are defined -->
                 <min_depth>0.1</min_depth>
                 <max_depth>100.0</max_depth>
             </plugin>

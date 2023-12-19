@@ -11,19 +11,26 @@
 
     <!-- contains gazebo plugins-->
     <xacro:include filename="gazebo_control.xacro" />
+    
+    <!-- for lidar sensor -->
+    <xacro:include filename="lidar.xacro" />
+    
+    <!-- IMPORTANT: only one camera can be activated so uncomment one and run the project with it -->
+    <!-- for camera -->
+    <!-- <xacro:include filename="camera.xacro" /> -->
+    <!-- for depth camare -->
+    <xacro:include filename="depth_camera.xacro" />
 
-    <!-- 
-    <xacro:if value="$(arg use_ros2_control)">
+
+    <xacro:include filename="face.xacro" />
+    
+    <!--  <xacro:if value="$(arg use_ros2_control)">
         <xacro:include filename="ros2_control.xacro" />
     </xacro:if>
     <xacro:unless value="$(arg use_ros2_control)">
         <xacro:include filename="gazebo_control.xacro" />
     </xacro:unless>
-    <xacro:include filename="lidar.xacro" />
-    <xacro:include filename="camera.xacro" /> -->
-    <!-- <xacro:include filename="depth_camera.xacro" /> -->
-
-    <!-- <xacro:include filename="face.xacro" /> -->
+     -->
 
 
 </robot>

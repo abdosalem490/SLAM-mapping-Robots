@@ -31,7 +31,7 @@ def generate_launch_description():
     
     # Set the path to the SDF model files.
     gazebo_models_path = os.path.join(pkg_slam_robots, 'worlds')
-    os.environ["GAZEBO_MODEL_PATH"] = gazebo_models_path
+    # os.environ["GAZEBO_MODEL_PATH"] = gazebo_models_path
 
 
     declare_world_cmd = DeclareLaunchArgument(
@@ -56,11 +56,7 @@ def generate_launch_description():
     #     value=[
     #             os.path.join(pkg_slam_robots, 'worlds')
     #         ])
-    # gazebo_model_path = SetEnvironmentVariable(
-    #     name='GAZEBO_MODEL_PATH',
-    #     value=[
-    #             os.path.join(pkg_slam_robots, 'worlds')
-    #         ])
+    gazebo_model_path = SetEnvironmentVariable(name='GAZEBO_MODEL_PATH', value=gazebo_models_path)
     
     # os.environ['GAZEBO_RESOURCE_PATH'] = os.environ['HOME']+'/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds'
     # os.environ['GAZEBO_MODEL_PATH'] = os.environ['HOME']+'/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds'
@@ -159,12 +155,12 @@ def generate_launch_description():
     #
     # Replace the diff_drive_spawner in the final return with delayed_diff_drive_spawner
 
-
+    
 
     # Launch them all!
     return LaunchDescription([
         # gazebo_resource_path,
-        # gazebo_model_path,
+        gazebo_model_path,
         declare_world_cmd,
         rsp,
         # joystick,

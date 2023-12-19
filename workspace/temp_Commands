@@ -8,3 +8,6 @@ ros2 run ros_ign_gazebo create -topic robot_description -entiy bot_name // spawn
 
 
 sudo apt-get install ros-humble-controller-manager  // install controller manager
+
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/anything // this will remap the topic ('cmd_vel') published to by eleop_twist_keyboard into 'anything'
