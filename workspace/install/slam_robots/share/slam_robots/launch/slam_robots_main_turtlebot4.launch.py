@@ -377,11 +377,11 @@ def generate_launch_description():
 
     # couldn't spawn more than 3 robots as There seems to be a hard limit of ~120 nodes. 
     ld.add_action(robot1_spawn)
-    ld.add_action(robot2_spawn)
+    # ld.add_action(robot2_spawn)
     # ld.add_action(robot3_spawn)
     # ld.add_action(robot4_spawn)
     # ld.add_action(robot5_spawn)
-    ld.add_action(robot6_spawn)
+       # ld.add_action(robot6_spawn)
     # ld.add_action(robot7_spawn)
     # ld.add_action(robot8_spawn)
     # ld.add_action(robot9_spawn)

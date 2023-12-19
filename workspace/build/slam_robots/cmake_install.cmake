@@ -66,6 +66,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/slam_robots" TYPE DIRECTORY FILES
     "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/slam_robots/launch"
     "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/slam_robots/worlds"
+    "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/slam_robots/robot"
     )
 endif()
 

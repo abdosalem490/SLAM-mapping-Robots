@@ -1,0 +1,431 @@
+<?xml version='1.0' ?>
+<sdf version="1.7">
+  <model name="library">
+    
+    <!-- Main CHair-->
+    <include>
+      <name>Main_Chair</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+
+    <!-- Smart Board-->
+    <include> 
+      <name>smart_board</name>
+      <uri>model://models_classic/basic_models/smart_board</uri>
+      <pose>-4 0 0 0 0 -0.7854 </pose>
+    </include>
+    
+
+    <!-- Front Wall with window-->
+    <include> 
+      <name>front_wall_with_window</name>
+      <uri>model://models_classic/basic_models/wall_with_window</uri>
+      <pose>-3 -20 0 0 0 0 </pose>
+    </include>
+
+
+    <!-- Right Wall-->
+    <include> 
+      <name>right_wall</name>
+      <uri>model://models_classic/basic_models/wall</uri>
+      <pose>1 -9 0 0 0 1.575 </pose>
+    </include>
+
+   <!-- Left Wall-->
+    <include> 
+      <name>left_wall</name>
+      <uri>model://models_classic/basic_models/wall</uri>
+      <pose>-14 -9 0 0 0 1.575 </pose>
+    </include>
+
+    <!-- Tabbles-->
+    <include> 
+      <name>Table1</name>
+      <uri>model://models_classic/basic_models/table</uri>
+      <pose>-1 0 0 0 0 1.575 </pose>
+    </include>   
+
+    <include> 
+      <name>Table2</name>
+      <uri>model://models_classic/basic_models/table</uri>
+      <pose>-3 -7 0 0 0 1.575 </pose>
+    </include>   
+
+    <include> 
+      <name>Table3</name>
+      <uri>model://models_classic/basic_models/table</uri>
+      <pose>-10 -7 0 0 0 1.575 </pose>
+    </include>   
+
+    <include> 
+      <name>Table4</name>
+      <uri>model://models_classic/basic_models/table</uri>
+      <pose>-3 -10 0 0 0 1.575 </pose>
+    </include>   
+
+    <include> 
+      <name>Table5</name>
+      <uri>model://models_classic/basic_models/table</uri>
+      <pose>-10 -10 0 0 0 1.575 </pose>
+    </include>   
+
+    <include> 
+      <name>Table6</name>
+      <uri>model://models_classic/basic_models/table</uri>
+      <pose>-3 -13 0 0 0 1.575 </pose>
+    </include> 
+
+    <include> 
+      <name>Table7</name>
+      <uri>model://models_classic/basic_models/table</uri>
+      <pose>-10 -13 0 0 0 1.575 </pose>
+    </include>   
+
+    <include> 
+      <name>Table8</name>
+      <uri>model://models_classic/basic_models/table</uri>
+      <pose>-3 -18 0 0 0 0 </pose>
+    </include>   
+
+    <include> 
+      <name>Table9</name>
+      <uri>model://models_classic/basic_models/table</uri>
+      <pose>-6 -18 0 0 0 0 </pose>
+    </include>   
+
+    <include> 
+      <name>Table10</name>
+      <uri>model://models_classic/basic_models/table</uri>
+      <pose>-9 -18 0 0 0 0 </pose>
+    </include>   
+
+    <!-- Chairs-->
+    <include>
+      <name>chair1</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-2 -6 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair2</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-2 -7 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair3</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-2 -8 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair4</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-2 -9 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair5</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-2 -10 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair6</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-2 -11 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair7</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-2 -12 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair8</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-2 -13 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair9</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-2 -14 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair10</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-3 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair11</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-4 -6 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair12</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-4 -7 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair13</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-4 -8 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair14</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-4 -9 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair15</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-4 -10 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair16</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-4 -11 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair17</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-4 -12 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair18</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-4 -13 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair19</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-4 -14 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair20</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-2 -17 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>chair21</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-3 -17 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>chair22</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-4 -17 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>chair23</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-5 -17 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>chair24</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-6 -17 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>chair25</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-7 -17 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>chair26</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-8 -17 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>chair27</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-9 -17 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <name>chair28</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-10 -17 0 0 0 0</pose>
+    </include>   
+
+    <include>
+      <name>chair29</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-9 -6 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair30</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-9 -7 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair31</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-9 -8 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair32</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-9 -9 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair33</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-9 -10 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair34</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-9 -11 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair35</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-9 -12 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair36</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-9 -13 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair37</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-9 -14 0 0 0 -1.575</pose>
+    </include>
+
+    <include>
+      <name>chair38</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-10 -15 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>chair39</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-11 -6 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair40</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-11 -7 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair41</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-11 -7 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair42</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-11 -8 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair43</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-11 -9 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair44</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-11 -10 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair45</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-11 -11 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair46</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-11 -12 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair47</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-11 -13 0 0 0 1.575</pose>
+    </include>
+
+    <include>
+      <name>chair48</name>
+      <uri>model://models_classic/basic_models/chair</uri>
+      <pose>-11 -14 0 0 0 1.575</pose>
+    </include>
+
+    <!-- People-->
+    <include>
+      <name>standing_person1</name>
+      <uri>model://models_classic/fuel_models/Standing_person</uri>
+      <pose>-7 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>standing_person2</name>
+      <uri>model://models_classic/fuel_models/Standing_person</uri>
+      <pose>-9 -19 0 0 0 3.15</pose>
+    </include>
+
+    <include>
+      <name>walking_person1</name>
+      <uri>model://models_classic/fuel_models/Walking_person</uri>
+      <pose>-6 -5 0 0 0 0.8</pose>
+    </include>
+    
+    <include>
+      <name>walking_person2</name>
+      <uri>model://models_classic/fuel_models/Walking_person</uri>
+      <pose>0 -8 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>Casual_female1</name>
+      <uri>model://models_classic/fuel_models/Casual_female</uri>
+      <pose>-6 -10 0 0 0 -0.8</pose>
+    </include>
+
+    <include>
+      <name>Casual_female2</name>
+      <uri>model://models_classic/fuel_models/Casual_female</uri>
+      <pose>-13 -12 0 0 0 3.15</pose>
+    </include>
+
+  </model>
+</sdf>

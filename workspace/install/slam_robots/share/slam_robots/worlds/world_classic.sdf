@@ -1,0 +1,148 @@
+<?xml version='1.0' ?>
+<sdf version="1.7">
+  <world name="CMP_department">
+
+
+    <!-- To remove that grid on the ground-->
+    <scene>
+      <ambient>1 1 1 1</ambient>
+      <background>0.3 0.7 0.9 1</background>
+      <shadows>0</shadows>
+      <grid>false</grid>
+    </scene>
+
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>150</iters>
+          <precon_iters>0</precon_iters>
+          <sor>1.400000</sor>
+          <use_dynamic_moi_rescaling>1</use_dynamic_moi_rescaling>
+        </solver>
+        <constraints>
+          <cfm>0.00001</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>2000.000000</contact_max_correcting_vel>
+          <contact_surface_layer>0.01000</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+
+    <!--light-->
+    <light type="directional" name="sun">
+      <cast_shadows>false</cast_shadows>
+      <pose>0 0 100 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- ground-->
+   <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+          <collision name="collision">
+          <geometry>
+              <plane>
+              <normal>0 0 1</normal>
+              </plane>
+          </geometry>
+          </collision>
+          <visual name="visual">
+          <geometry>
+              <plane>
+              <normal>0 0 1</normal>
+              <size>200 200</size>
+              </plane>
+          </geometry>
+          <material>
+              <ambient>0.8 0.8 0.8 1</ambient>
+              <diffuse>0.8 0.8 0.8 1</diffuse>
+              <specular>0.8 0.8 0.8 1</specular>
+          </material>
+          </visual>
+      </link>
+  </model>
+
+
+
+  <include>
+    <name>maincorridor</name>
+    <uri>model://models_classic/sub_worlds/maincorridor</uri>
+    <pose>0 0 0 0 0 0 </pose>
+  </include>
+
+
+  <!-- <include>
+    <name>robots</name>
+    <uri>./models/sub_worlds/robots.sdf</uri>
+    <pose>0 0 0 0 0 0 </pose>
+  </include> -->
+
+  <include>
+    <name>fourth_year</name>
+    <uri>model://models_classic/sub_worlds/fourth_year</uri>
+    <pose>-36 -4 0 0 0 0 </pose>
+  </include>
+
+  <include>
+    <name>third_year</name>
+    <uri>model://models_classic/sub_worlds/third_year</uri>
+    <pose>-14 -4 0 0 0 0 </pose>
+  </include>
+
+    <include>
+   <name>second_year</name>
+    <uri>model://models_classic/sub_worlds/second_year</uri>
+    <pose>8 -4 0 0 0 0 </pose>
+  </include>
+
+  <include>
+    <name>first_year</name>
+    <uri>model://models_classic/sub_worlds/first_year</uri>
+    <pose>39 -13 0 0 0 -1.57 </pose>
+  </include>
+
+ <include>
+    <name>library</name>
+    <uri>model://models_classic/sub_worlds/library</uri>
+    <pose>35 4 0 0 0 3.14 </pose>
+  </include>
+
+
+  <include>
+    <name>lab1</name>
+    <uri>model://models_classic/sub_worlds/lab1</uri>
+    <pose>16 4 0 0 0 3.14 </pose>
+  </include>
+  
+  <include>
+    <name>lab2</name>
+    <uri>model://models_classic/sub_worlds/lab2</uri>
+    <pose>-3 4 0 0 0 3.14 </pose>
+  </include>
+
+  <include>
+    <name>lab3</name>
+    <uri>model://models_classic/sub_worlds/lab3</uri>
+    <pose>-22 4 0 0 0 3.14 </pose>
+  </include>
+  
+  <include>
+    <name>lab4</name>
+    <uri>model://models_classic/sub_worlds/lab4</uri>
+    <pose>-35 4 0 0 0 3.14 </pose>
+  </include> 
+
+  </world>
+</sdf>

@@ -1,5 +1,5 @@
 <?xml version='1.0' ?>
-<sdf version="1.9">
+<sdf version="1.7">
   <world name="CMP_department">
     <physics name="1ms" type="ignored">
       <max_step_size>0.001</max_step_size>
@@ -54,8 +54,6 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
 
-
-
     <!-- ground-->
     <model name="ground_plane">
       <static>true</static>
@@ -84,8 +82,6 @@
   </model>
 
 
-
-
   <include>
     <name>maincorridor</name>
     <uri>models/sub_worlds/maincorridor.sdf</uri>
@@ -93,13 +89,13 @@
   </include>
 
 
-  <include>
+  <!-- <include>
     <name>robots</name>
     <uri>./models/sub_worlds/robots.sdf</uri>
     <pose relative_to='maincorridor'>0 0 0 0 0 0 </pose>
-  </include>
+  </include> -->
 
-  <include>
+  <!-- <include>
     <name>fourth_year</name>
     <uri>./models/sub_worlds/fourth_year.sdf</uri>
     <pose relative_to='maincorridor'>-14 27 0 0 0 0 </pose>
@@ -151,7 +147,7 @@
     <name>lab4</name>
     <uri>./models/sub_worlds/lab4.sdf</uri>
     <pose relative_to='maincorridor'>4 27 0 0 0 0 </pose>
-  </include> 
+  </include>  -->
 
   </world>
 </sdf>
