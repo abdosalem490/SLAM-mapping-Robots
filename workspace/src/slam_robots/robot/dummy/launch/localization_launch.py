@@ -25,7 +25,7 @@ from nav2_common.launch import RewrittenYaml
 
 def generate_launch_description():
     # Get the launch directory
-    bringup_dir = get_package_share_directory('articubot_one')
+    bringup_dir = get_package_share_directory('slam_robots')
 
     namespace = LaunchConfiguration('namespace')
     map_yaml_file = LaunchConfiguration('map')
@@ -86,7 +86,7 @@ def generate_launch_description():
             name='map_server',
             output='screen',
             parameters=[configured_params],
-            remappings=remappings),
+            remappings=remappings), 
 
         Node(
             package='nav2_amcl',

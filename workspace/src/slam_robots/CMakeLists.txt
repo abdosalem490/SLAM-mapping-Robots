@@ -32,7 +32,7 @@ install(TARGETS
 
 # Install launch and world files. (make launch directory available in workspace/install/slam_robots/share/slam_robots) so that it is seen by the ros2 launch command (must be before ament_package() )
 install(DIRECTORY
-  launch worlds robot
+  launch worlds robot config
   DESTINATION share/${PROJECT_NAME}
 )
 

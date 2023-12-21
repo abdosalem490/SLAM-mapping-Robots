@@ -1,0 +1,85 @@
+[0.197s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_navigation -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation
+[0.236s] -- The C compiler identification is GNU 11.4.0
+[0.277s] -- The CXX compiler identification is GNU 11.4.0
+[0.284s] -- Detecting C compiler ABI info
+[0.339s] -- Detecting C compiler ABI info - done
+[0.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.345s] -- Detecting C compile features
+[0.345s] -- Detecting C compile features - done
+[0.347s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.423s] -- Detecting CXX compile features
+[0.423s] -- Detecting CXX compile features - done
+[0.425s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.581s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.758s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.828s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.830s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.830s] -- Added test 'lint_cmake' to check CMake code style
+[0.830s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.831s] -- Added test 'xmllint' to check XML markup files
+[0.832s] -- Configuring done
+[0.836s] -- Generating done
+[0.836s] -- Build files have been written to: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation
+[0.840s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_navigation -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation
+[0.841s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation -- -j16 -l16
+[0.880s] Built target ament_cmake_python_copy_turtlebot4_navigation
+[1.133s] running egg_info
+[1.134s] creating turtlebot4_navigation.egg-info
+[1.134s] writing turtlebot4_navigation.egg-info/PKG-INFO
+[1.134s] writing dependency_links to turtlebot4_navigation.egg-info/dependency_links.txt
+[1.134s] writing top-level names to turtlebot4_navigation.egg-info/top_level.txt
+[1.135s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.137s] reading manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.137s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.170s] Built target ament_cmake_python_build_turtlebot4_navigation_egg
+[1.179s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation -- -j16 -l16
+[1.199s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation
+[1.205s] -- Install configuration: ""
+[1.206s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/config
+[1.206s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/config/localization.yaml
+[1.206s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2.yaml
+[1.207s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/config/slam.yaml
+[1.207s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/launch
+[1.207s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/localization.launch.py
+[1.207s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/nav2.launch.py
+[1.207s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/slam.launch.py
+[1.207s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/maps
+[1.207s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.yaml
+[1.207s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.pgm
+[1.212s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.yaml
+[1.212s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.pgm
+[1.213s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.yaml
+[1.214s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.pgm
+[1.216s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.sh
+[1.216s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.dsv
+[1.216s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.4-py3.10.egg-info
+[1.216s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.4-py3.10.egg-info/dependency_links.txt
+[1.216s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.4-py3.10.egg-info/PKG-INFO
+[1.216s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.4-py3.10.egg-info/top_level.txt
+[1.216s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.4-py3.10.egg-info/SOURCES.txt
+[1.216s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation
+[1.216s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/turtlebot4_navigator.py
+[1.216s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/__init__.py
+[1.244s] Listing '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation'...
+[1.244s] Compiling '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/__init__.py'...
+[1.244s] Compiling '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/turtlebot4_navigator.py'...
+[1.248s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigator.py
+[1.273s] Compiling '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigator.py'...
+[1.277s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot4_navigation
+[1.277s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot4_navigation
+[1.277s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.sh
+[1.277s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.dsv
+[1.278s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.sh
+[1.278s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.dsv
+[1.278s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.bash
+[1.278s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.sh
+[1.278s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.zsh
+[1.278s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.dsv
+[1.278s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv
+[1.278s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/ament_index/resource_index/packages/turtlebot4_navigation
+[1.278s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig.cmake
+[1.278s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig-version.cmake
+[1.279s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_navigation/share/turtlebot4_navigation/package.xml
+[1.280s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_navigation

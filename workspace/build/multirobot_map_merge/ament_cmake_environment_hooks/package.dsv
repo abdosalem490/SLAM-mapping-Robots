@@ -1,0 +1,4 @@
+source;share/multirobot_map_merge/local_setup.bash
+source;share/multirobot_map_merge/local_setup.dsv
+source;share/multirobot_map_merge/local_setup.sh
+source;share/multirobot_map_merge/local_setup.zsh

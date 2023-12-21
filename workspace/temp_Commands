@@ -3,7 +3,7 @@ ros2 run joint_state_publisher_gui joint_state_publisher_gui  // for the error i
 rviz2 -d src/slam_robots/robot/rviz/view_robot.rviz // to run rviz saved configuration
 
 
-ros2 param get /robot_state_publisher user_sim_time // check if paramter is set
+ros2 param get /robot_state_publisher use_sim_time // check if paramter is set
 ros2 run ros_ign_gazebo create -topic robot_description -entiy bot_name // spawn a robot in gazebo
 
 
@@ -11,3 +11,24 @@ sudo apt-get install ros-humble-controller-manager  // install controller manage
 
 
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/anything // this will remap the topic ('cmd_vel') published to by eleop_twist_keyboard into 'anything'
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/slam_robots/config/mapper_params_online_async.yaml user_sim_time:=true // run slam toolbox
+
+
+// FOR AMCL (advanced montocarlo localization)
+sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup ros-humble-turtlebot3* ros-humble-twist-mux// download all needed packages for navigation
+ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=map0_save.yaml -p use_sim_time:=true // node that takes a map and make it avialable on the topic called /map
+ros2 run nav2_util lifecycle_bringup map_server  // to activate the above created node
+ros2 run nav2_util lifecycle_bringup amcl  // to localize the robot using amcl
+ros2 run nav2_amcl amcl --ros-args -p use_sim_time:=true // to localize the robot using amcl
+
+// launching nav2 with slam_toolbox
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true 
+ros2 run rviz2 rviz2 -d src/pla pla pla/map_config.rviz --ros-args -p use_sim_time:=true 
+
+// run project
+./run_project.sh
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/slam_robots/config/mapper_params_online_async.yaml use_sim_time:=true
+ros2 launch explore_lite explore.launch.py
+rviz2
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
+ros2 run teleop_twist_keyboard teleop_twist_keyboard

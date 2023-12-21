@@ -18,10 +18,10 @@ def generate_launch_description():
     # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled
     # !!! MAKE SURE YOU SET THE PACKAGE NAME CORRECTLY !!!
 
-    package_name='slam_robots' #<--- CHANGE ME
+    package_name='slam_robots'
 
     # Set ignition resource path
-    pkg_slam_robots = get_package_share_directory('slam_robots') # get the share directory of the current packate ('slam_robots')
+    pkg_slam_robots = get_package_share_directory(package_name) # get the share directory of the current packate ('slam_robots')
     slam_robots_world = PathJoinSubstitution([pkg_slam_robots, 'worlds', 'world_classic.sdf'])  # get the path of the world.sdf to run the robot on it
 
 
@@ -63,9 +63,9 @@ def generate_launch_description():
 
 
 
-    rsp = IncludeLaunchDescription(
+    robot1_launch = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory(package_name),'launch','robot_launch.launch.py'
+                    pkg_slam_robots, 'launch','robot_launch.launch.py'
                 )]), launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'false'}.items()
     )
 
@@ -86,7 +86,7 @@ def generate_launch_description():
 
 
 
-    gazebo_params_file = os.path.join(get_package_share_directory(package_name),'config','gazebo_params.yaml')
+    gazebo_params_file = os.path.join(pkg_slam_robots, 'config','gazebo_params.yaml')
 
     # Include the Gazebo launch file, provided by the gazebo_ros package
     gazebo = IncludeLaunchDescription(
@@ -126,17 +126,7 @@ def generate_launch_description():
 
     # spawn_entity = Node( package='ros_gz_sim', executable='create', arguments=[ '-name', 'ROBOT_NAME', '-topic', 'robot_description', ], output='screen', ) 
 
-    # diff_drive_spawner = Node(
-    #     package="controller_manager",
-    #     executable="spawner.py",
-    #     arguments=["diff_cont"],
-    # )
-
-    # joint_broad_spawner = Node(
-    #     package="controller_manager",
-    #     executable="spawner.py",
-    #     arguments=["joint_broad"],
-    # )
+ 
 
 
     # Code for delaying a node (I haven't tested how effective it is)
@@ -156,17 +146,52 @@ def generate_launch_description():
     # Replace the diff_drive_spawner in the final return with delayed_diff_drive_spawner
 
     
+    # add the command 'rviz2 -d /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/rviz/final_config.rviz' that contains configuration for rviz
+    rviz2_command = Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            arguments=[
+                '-d', os.path.join(pkg_slam_robots, 'robot', 'rviz', 'final_config.rviz')
+                ]
+            )
+                
+    
+    # add the command 'ros2 launch slam_toolbox online_async_launch.py slam_params_file:=./src/slam_robots/config/mapper_params_online_async.yaml use_sim_time:=true'
+    slam_toolbox_launch =  IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(                
+                    get_package_share_directory('slam_toolbox'), 'launch', 'online_async_launch.py'
+                )]), launch_arguments={
+                    'slam_params_file': os.path.join(pkg_slam_robots, 'config', 'mapper_params_online_async.yaml'), 
+                    'use_sim_time': 'true'
+                    }.items()
+    )
 
+    # add the command 'ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true'
+    robot_nav2_bringup =  IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(                
+                    get_package_share_directory('nav2_bringup'), 'launch', 'navigation_launch.py'
+                )]), launch_arguments={
+                    'use_sim_time': 'true'
+                    }.items()
+    )    
+
+    # add the command 'ros2 launch explore_lite explore.launch.py'
+    robot_explore_launch =  IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(                
+                    get_package_share_directory('explore_lite'), 'launch', 'explore.launch.py'
+                )])
+    )
+    
     # Launch them all!
     return LaunchDescription([
-        # gazebo_resource_path,
         gazebo_model_path,
+        slam_toolbox_launch,
+        robot_nav2_bringup,
+        robot_explore_launch,
+        rviz2_command,
         declare_world_cmd,
-        rsp,
-        # joystick,
-        # twist_mux,
+        robot1_launch,
         gazebo,
         spawn_entity,
-        # diff_drive_spawner,
-        # joint_broad_spawner
     ])

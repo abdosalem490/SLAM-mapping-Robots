@@ -1,3 +1,1 @@
-controller_manager:
-  ros__parameters:
-    use_sim_time: true
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/slam_robots/robot/dummy/config/gaz_ros2_ctl_use_sim.yaml

@@ -1,2 +1,1 @@
-source;share/slam_robots/environment/ament_prefix_path.sh
-source;share/slam_robots/environment/path.sh
+/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/slam_robots/ament_cmake_environment_hooks/local_setup.dsv

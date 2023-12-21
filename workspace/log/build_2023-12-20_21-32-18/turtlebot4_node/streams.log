@@ -1,0 +1,92 @@
+[0.090s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_node -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node
+[0.150s] -- The C compiler identification is GNU 11.4.0
+[0.219s] -- The CXX compiler identification is GNU 11.4.0
+[0.228s] -- Detecting C compiler ABI info
+[0.290s] -- Detecting C compiler ABI info - done
+[0.297s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.297s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.300s] -- Detecting CXX compiler ABI info
+[0.368s] -- Detecting CXX compiler ABI info - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.380s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.383s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.575s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.691s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.749s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.756s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.764s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.793s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.857s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.859s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.938s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.964s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.009s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.019s] -- Looking for pthread.h
+[1.089s] -- Looking for pthread.h - found
+[1.089s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.148s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.149s] -- Found Threads: TRUE  
+[1.296s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.386s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[1.407s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.530s] -- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+[1.663s] -- Found turtlebot4_msgs: 1.0.4 (/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake)
+[1.693s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.771s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.771s] -- Configured cppcheck include dirs: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_node/include
+[1.771s] -- Configured cppcheck exclude dirs and/or files: 
+[1.773s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.773s] -- Configured cpplint exclude dirs and/or files: 
+[1.774s] -- Added test 'lint_cmake' to check CMake code style
+[1.775s] -- Added test 'uncrustify' to check C / C++ code style
+[1.775s] -- Configured uncrustify additional arguments: 
+[1.776s] -- Added test 'xmllint' to check XML markup files
+[1.778s] -- Configuring done
+[1.800s] -- Generating done
+[1.802s] -- Build files have been written to: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node
+[1.817s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot4/turtlebot4_node -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node
+[1.819s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node -- -j16 -l16
+[1.857s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/buttons.cpp.o[0m
+[1.858s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/turtlebot4.cpp.o[0m
+[1.858s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/leds.cpp.o[0m
+[1.858s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/main.cpp.o[0m
+[1.860s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/display.cpp.o[0m
+[25.092s] [ 75%] [32m[1mLinking CXX static library libturtlebot4_node_lib.a[0m
+[26.826s] [ 75%] Built target turtlebot4_node_lib
+[26.895s] [ 87%] [32mBuilding CXX object CMakeFiles/turtlebot4_node.dir/src/main.cpp.o[0m
+[30.936s] [100%] [32m[1mLinking CXX executable turtlebot4_node[0m
+[33.324s] [100%] Built target turtlebot4_node
+[33.331s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node -- -j16 -l16
+[33.351s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node
+[33.356s] -- Install configuration: ""
+[33.356s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/lib/turtlebot4_node/turtlebot4_node
+[33.368s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/lib/turtlebot4_node/turtlebot4_node" to ""
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/include
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/include/turtlebot4_node
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/include/turtlebot4_node/action.hpp
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/include/turtlebot4_node/display.hpp
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/include/turtlebot4_node/utils.hpp
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/include/turtlebot4_node/service.hpp
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/include/turtlebot4_node/turtlebot4.hpp
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/include/turtlebot4_node/leds.hpp
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/include/turtlebot4_node/buttons.hpp
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/ament_index/resource_index/package_run_dependencies/turtlebot4_node
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/ament_index/resource_index/parent_prefix_path/turtlebot4_node
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.sh
+[33.369s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.dsv
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/environment/path.sh
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/environment/path.dsv
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/local_setup.bash
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/local_setup.sh
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/local_setup.zsh
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/local_setup.dsv
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/package.dsv
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/ament_index/resource_index/packages/turtlebot4_node
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig.cmake
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig-version.cmake
+[33.370s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_node/share/turtlebot4_node/package.xml
+[33.372s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot4_node
