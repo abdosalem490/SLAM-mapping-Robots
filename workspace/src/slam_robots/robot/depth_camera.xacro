@@ -48,7 +48,9 @@
             </camera>
             <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
                 <frame_name>camera_link_optical</frame_name>
-
+                <!-- <ros> -->
+                    <!-- <xacro:if value="$(arg robot1)"><namespace>/robot1</namespace></xacro:if> -->
+                <!-- </ros> -->
                 <!-- still don't know the use of these depth as far and near are defined -->
                 <min_depth>0.1</min_depth>
                 <max_depth>100.0</max_depth>

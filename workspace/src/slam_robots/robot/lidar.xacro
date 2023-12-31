@@ -80,6 +80,7 @@
                 <!-- what topic to push to -->
                 <ros>
                     <argument>~/out:=scan</argument>
+                    <!-- <xacro:if value="$(arg robot1)"><namespace>/robot1</namespace></xacro:if> -->
                 </ros>
                 <!-- type of message output -->
                 <output_type>sensor_msgs/LaserScan</output_type>

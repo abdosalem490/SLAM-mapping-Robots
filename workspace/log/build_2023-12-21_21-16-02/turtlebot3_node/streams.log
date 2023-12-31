@@ -1,0 +1,86 @@
+[0.443s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node
+[0.990s] -- The C compiler identification is GNU 11.4.0
+[0.990s] -- The CXX compiler identification is GNU 11.4.0
+[0.991s] -- Detecting C compiler ABI info
+[1.164s] -- Detecting C compiler ABI info - done
+[1.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.173s] -- Detecting C compile features
+[1.173s] -- Detecting C compile features - done
+[1.188s] -- Detecting CXX compiler ABI info
+[1.435s] -- Detecting CXX compiler ABI info - done
+[1.446s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.446s] -- Detecting CXX compile features
+[1.447s] -- Detecting CXX compile features - done
+[1.454s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.833s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.040s] -- Found dynamixel_sdk: 3.7.60 (/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[2.044s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.145s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.148s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.168s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.508s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[2.579s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.583s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.735s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.797s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.881s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.908s] -- Looking for pthread.h
+[3.075s] -- Looking for pthread.h - found
+[3.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.153s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.154s] -- Found Threads: TRUE  
+[3.390s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.554s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.697s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[3.728s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[3.753s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.350s] -- Found turtlebot3_msgs: 2.2.3 (/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[4.608s] -- Configuring done
+[4.642s] -- Generating done
+[4.645s] -- Build files have been written to: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node
+[4.662s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node
+[4.664s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node -- -j16 -l16
+[4.717s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[4.718s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[4.719s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[4.730s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[4.743s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[4.744s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[4.751s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[4.752s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[4.768s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[4.891s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[4.911s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[21.705s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[22.929s] [ 85%] Built target turtlebot3_node_lib
+[22.943s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[25.976s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[27.332s] [100%] Built target turtlebot3_ros
+[27.340s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node -- -j16 -l16
+[27.371s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node
+[27.376s] -- Install configuration: ""
+[27.376s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/param
+[27.377s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[27.377s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[27.377s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[27.377s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[27.385s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[27.385s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[27.385s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[27.386s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[27.387s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[27.388s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/turtlebot3_node

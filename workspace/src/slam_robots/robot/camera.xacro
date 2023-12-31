@@ -67,6 +67,7 @@
             </camera>
             <!-- actual plugin takes reads from transformed image even the sensor is attached to the 'camera_link', we want 'camera_link_optical' -->
             <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <xacro:if value="$(arg robot1)"><namespace>/robot1</namespace></xacro:if>
                 <frame_name>camera_link_optical</frame_name>
             </plugin>
         </sensor>

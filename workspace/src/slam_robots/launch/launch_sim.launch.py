@@ -31,7 +31,6 @@ def generate_launch_description():
     
     # Set the path to the SDF model files.
     gazebo_models_path = os.path.join(pkg_slam_robots, 'worlds')
-    # os.environ["GAZEBO_MODEL_PATH"] = gazebo_models_path
 
 
     declare_world_cmd = DeclareLaunchArgument(
@@ -39,29 +38,8 @@ def generate_launch_description():
         default_value=world_path,
         description='Full path to the world model file to load')
 
-    # ign_resource_path = SetEnvironmentVariable(
-    #     name='IGN_GAZEBO_RESOURCE_PATH',
-    #     value=[
-    #             os.path.join(pkg_slam_robots, 'worlds')
-    #         ])
-    
-    # ign_resource_path = SetEnvironmentVariable(
-    #     name='GAZEBO_MODEL_PATH',
-    #     value=[
-    #             os.path.join(pkg_slam_robots, 'worlds')
-    #         ])
 
-    # gazebo_resource_path = SetEnvironmentVariable(
-    #     name='GAZEBO_RESOURCE_PATH',
-    #     value=[
-    #             os.path.join(pkg_slam_robots, 'worlds')
-    #         ])
     gazebo_model_path = SetEnvironmentVariable(name='GAZEBO_MODEL_PATH', value=gazebo_models_path)
-    
-    # os.environ['GAZEBO_RESOURCE_PATH'] = os.environ['HOME']+'/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds'
-    # os.environ['GAZEBO_MODEL_PATH'] = os.environ['HOME']+'/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/worlds'
-
-
 
     robot1_launch = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
@@ -69,21 +47,28 @@ def generate_launch_description():
                 )]), launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'false'}.items()
     )
 
-    # joystick = IncludeLaunchDescription(
-    #             PythonLaunchDescriptionSource([os.path.join(
-    #                 get_package_share_directory(package_name),'launch','joystick.launch.py'
-    #             )]), launch_arguments={'use_sim_time': 'true'}.items()
-    # )
+    # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
+    spawn1_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
+                        # arguments=['-topic', 'robot_description',
+                        arguments=['-topic', 'robot_description',
+                                   '-entity', 'robot1',
+                                   '-x', '4',
+                                   '-y', '10'],
+                        output='screen')
+    
+    robot2_launch = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    pkg_slam_robots, 'launch','robot_launch.launch.py'
+                )]), launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'false', 'name': 'robot2'}.items()
+    )
 
-    # twist_mux_params = os.path.join(get_package_share_directory(package_name),'config','twist_mux.yaml')
-    # twist_mux = Node(
-    #         package="twist_mux",
-    #         executable="twist_mux",
-    #         parameters=[twist_mux_params, {'use_sim_time': True}],
-    #         remappings=[('/cmd_vel_out','/diff_cont/cmd_vel_unstamped')]
-    #     )
-
-
+    # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
+    spawn2_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
+                        arguments=['-topic', '/robot2/robot_description',
+                                   '-entity', 'robot2',
+                                   '-x', '4',
+                                   '-y', '10'],
+                        output='screen')
 
 
     gazebo_params_file = os.path.join(pkg_slam_robots, 'config','gazebo_params.yaml')
@@ -94,56 +79,6 @@ def generate_launch_description():
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
                     launch_arguments={'extra_gazebo_args': '--ros-args --params-file ' + gazebo_params_file}.items()
              )
-    #'world': 'world_classic.sdf',
-
-    # pkg_ros_ign_gazebo = get_package_share_directory('ros_ign_gazebo'); # get gazebo share directory through which we can run gazebo
-    # ign_gazebo_launch = PathJoinSubstitution([pkg_ros_ign_gazebo, 'launch', 'ign_gazebo.launch.py'])    # get the path of ignition gazebo launch file
-    # gazebo = IncludeLaunchDescription(
-    #             PythonLaunchDescriptionSource([ign_gazebo_launch]),
-    #                 launch_arguments=[('ign_args', [slam_robots_world])] #, '--ros-args --params-file ' + gazebo_params_file])]
-    #          )
-    
-    # gazebo = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource([ign_gazebo_launch]),
-    #     launch_arguments=[
-    #             ('ign_args', [slam_robots_world])
-    #         ]
-    # )
-
-    # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
-    spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
-                        arguments=['-topic', 'robot_description',
-                                   '-entity', 'my_bot',
-                                   '-x', '4',
-                                   '-y', '10'],
-                        output='screen')
-
-
-    # spawn_entity = Node(package='ros_ign_gazebo', executable='create',
-    #                     arguments=['-topic', 'robot_description',
-    #                                '-entity', 'my_bot'],
-    #                     output='screen')
-
-    # spawn_entity = Node( package='ros_gz_sim', executable='create', arguments=[ '-name', 'ROBOT_NAME', '-topic', 'robot_description', ], output='screen', ) 
-
- 
-
-
-    # Code for delaying a node (I haven't tested how effective it is)
-    # 
-    # First add the below lines to imports
-    # from launch.actions import RegisterEventHandler
-    # from launch.event_handlers import OnProcessExit
-    #
-    # Then add the following below the current diff_drive_spawner
-    # delayed_diff_drive_spawner = RegisterEventHandler(
-    #     event_handler=OnProcessExit(
-    #         target_action=spawn_entity,
-    #         on_exit=[diff_drive_spawner],
-    #     )
-    # )
-    #
-    # Replace the diff_drive_spawner in the final return with delayed_diff_drive_spawner
 
     
     # add the command 'rviz2 -d /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/slam_robots/share/slam_robots/robot/rviz/final_config.rviz' that contains configuration for rviz
@@ -192,6 +127,8 @@ def generate_launch_description():
         rviz2_command,
         declare_world_cmd,
         robot1_launch,
+        spawn1_entity,
+        # robot2_launch,
+        # spawn2_entity,
         gazebo,
-        spawn_entity,
     ])

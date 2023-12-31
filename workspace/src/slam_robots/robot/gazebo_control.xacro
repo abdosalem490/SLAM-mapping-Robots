@@ -1,9 +1,17 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+    <xacro:property name="suffix" value="$(arg number)"/>
 
     <gazebo>
         <!-- <plugin name="ignition::gazebo::systems::DiffDrive" filename="libignition-gazebo-diff-drive-system.so"> -->
         <plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+
+            <!-- <ros> -->
+                <!-- <xacro:if value="$(arg robot1)"><namespace>/robot1</namespace></xacro:if> -->
+                <!-- <xacro:if value="$(arg robot2)"><namespace>/robot2</namespace></xacro:if> -->
+                <!-- <xacro:if value="$(arg robot3)"><namespace>/robot3</namespace></xacro:if> -->
+            <!-- </ros>  -->
             <!-- Wheel Information -->
             <left_joint>left_wheel_joint</left_joint>
             <right_joint>right_wheel_joint</right_joint>

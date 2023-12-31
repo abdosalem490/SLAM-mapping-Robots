@@ -1,1 +1,0 @@
-/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/slam_robots/launch/slam_robots_main_turtlebot4.launch.py

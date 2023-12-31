@@ -1,0 +1,131 @@
+[0.555s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge
+[0.923s] -- The C compiler identification is GNU 11.4.0
+[0.923s] -- The CXX compiler identification is GNU 11.4.0
+[0.924s] -- Detecting C compiler ABI info
+[0.924s] -- Detecting C compiler ABI info - done
+[0.924s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.924s] -- Detecting C compile features
+[0.924s] -- Detecting C compile features - done
+[0.924s] -- Detecting CXX compiler ABI info
+[0.976s] -- Detecting CXX compiler ABI info - done
+[0.986s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.987s] -- Detecting CXX compile features
+[0.987s] -- Detecting CXX compile features - done
+[0.991s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.276s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.400s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.477s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.484s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.496s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.516s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.637s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.638s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.741s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.776s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.825s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.833s] -- Looking for pthread.h
+[1.889s] -- Looking for pthread.h - found
+[1.889s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.954s] -- Found Threads: TRUE  
+[2.192s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.254s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[2.377s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[2.706s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.738s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.740s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.740s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.458s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[3.482s] -- Found OpenCV: /usr (found version "4.5.4") 
+[3.740s] -- Configuring done
+[3.880s] -- Generating done
+[3.883s] -- Build files have been written to: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge
+[3.914s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge
+[3.915s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge -- -j16 -l16
+[4.065s] [ 16%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/grid_compositor.cpp.o[0m
+[4.078s] [ 33%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/grid_warper.cpp.o[0m
+[4.088s] [ 50%] [32mBuilding CXX object CMakeFiles/combine_grids.dir/src/combine_grids/merging_pipeline.cpp.o[0m
+[10.431s] [ 66%] [32m[1mLinking CXX static library libcombine_grids.a[0m
+[10.518s] [ 66%] Built target combine_grids
+[10.544s] [ 83%] [32mBuilding CXX object CMakeFiles/map_merge.dir/src/map_merge.cpp.o[0m
+[11.856s] In file included from [01m[K/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge/src/map_merge.cpp:44[m[K:
+[11.856s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[11.856s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[11.856s]       |  [01;35m[K^~~~~~~[m[K
+[17.824s] [01m[K/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge/src/map_merge.cpp:[m[K In function ‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstSharedPtr pad_map2(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstSharedPtr, unsigned int, unsigned int)[m[K’:
+[17.824s] [01m[K/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge/src/map_merge.cpp:122:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.824s]   122 |   for (int i=0;  [01;35m[Ki < padded_map->info.width * bottom0_height_[m[K; i++)
+[17.824s]       |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.824s] [01m[K/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge/src/map_merge.cpp:129:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst _height_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.824s]   129 |   for (int item_counter=0; [01;35m[Kitem_counter < map->info.height[m[K; item_counter++)
+[17.825s]       |                            [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[17.825s] [01m[K/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge/src/map_merge.cpp:135:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.825s]   135 |     for (int q=0; [01;35m[Kq < bottom0_width_[m[K; q++)
+[17.825s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[17.825s] [01m[K/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge/src/map_merge.cpp:142:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst _width_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.825s]   142 |     for (int a = 0; [01;35m[Ka < map->info.width[m[K; a++)
+[17.825s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[17.825s] [01m[K/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge/src/map_merge.cpp:153:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.825s]   153 |     for (int u=0; [01;35m[Ku < (padded_map->info.width - map->info.width - bottom0_width_)[m[K; u++)
+[17.825s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.826s] [01m[K/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge/src/map_merge.cpp:164:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.826s]   164 |   for (int z=0;  [01;35m[Kz < ((height - map->info.height - bottom0_height_) * padded_map->info.width)[m[K; z++)
+[17.826s]       |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.922s] [01m[K/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge/src/map_merge.cpp:[m[K In member function ‘[01m[Kvoid map_merge::MapMerge::mapMerging()[m[K’:
+[17.922s] [01m[K/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/map_merge/src/map_merge.cpp:365:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[17.923s]   365 |       int [01;35m[Ki[m[K = 0;
+[17.923s]       |           [01;35m[K^[m[K
+[33.762s] [100%] [32m[1mLinking CXX executable map_merge[0m
+[35.525s] [100%] Built target map_merge
+[35.534s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge -- -j16 -l16
+[35.556s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge
+[35.563s] -- Install configuration: ""
+[35.563s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/include/map_merge/
+[35.563s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/include/map_merge//map_merge.h
+[35.563s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/include/map_merge//ros1_names.hpp
+[35.563s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch
+[35.563s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/from_map_server.launch.py
+[35.563s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.rviz
+[35.572s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation
+[35.572s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/slam_toolbox.py
+[35.572s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/tb3_simulation_launch.py
+[35.572s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/multi_tb3_simulation_launch.py
+[35.572s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/bringup_launch.py
+[35.572s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds
+[35.572s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/worlds/world_only.model
+[35.585s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config
+[35.585s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_2.yaml
+[35.595s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/tb3_simulation/config/nav2_multirobot_params_1.yaml
+[35.603s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/from_map_server.launch
+[35.607s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.launch
+[35.634s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/experiments
+[35.634s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/experiments/demo-scene-orientation-exp.ttt.launch
+[35.640s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/experiments/3-robots.ttt.launch
+[35.674s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/experiments/demo-scene-1.ttt.launch
+[35.682s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/launch/map_merge.launch.py
+[35.682s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/config
+[35.682s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/config/params.yaml
+[35.688s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/lib/libcombine_grids.a
+[35.689s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/lib/multirobot_map_merge/map_merge
+[35.693s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/lib/multirobot_map_merge/map_merge" to ""
+[35.694s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.sh
+[35.694s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/environment/library_path.dsv
+[35.694s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/ament_index/resource_index/package_run_dependencies/multirobot_map_merge
+[35.694s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/ament_index/resource_index/parent_prefix_path/multirobot_map_merge
+[35.694s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.sh
+[35.694s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/environment/ament_prefix_path.dsv
+[35.694s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.sh
+[35.695s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/environment/path.dsv
+[35.695s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.bash
+[35.695s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.sh
+[35.695s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.zsh
+[35.695s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/local_setup.dsv
+[35.695s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv
+[35.695s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/ament_index/resource_index/packages/multirobot_map_merge
+[35.695s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.695s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/cmake/ament_cmake_export_libraries-extras.cmake
+[35.696s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig.cmake
+[35.696s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig-version.cmake
+[35.696s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/multirobot_map_merge/share/multirobot_map_merge/package.xml
+[35.697s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/multirobot_map_merge

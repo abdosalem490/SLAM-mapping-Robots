@@ -89,7 +89,7 @@
     <pose>0 0 0 0 0 0 </pose>
   </include> -->
 
-  <!-- <include>
+  <include>
     <name>fourth_year</name>
     <uri>model://models_classic/sub_worlds/fourth_year</uri>
     <pose>-36 -4 0 0 0 0 </pose>
@@ -101,7 +101,7 @@
     <pose>-14 -4 0 0 0 0 </pose>
   </include>
 
-    <include>
+  <include>
    <name>second_year</name>
     <uri>model://models_classic/sub_worlds/second_year</uri>
     <pose>8 -4 0 0 0 0 </pose>
@@ -142,7 +142,7 @@
     <name>lab4</name>
     <uri>model://models_classic/sub_worlds/lab4</uri>
     <pose>-35 4 0 0 0 3.14 </pose>
-  </include>  -->
+  </include> 
 
   </world>
 </sdf>

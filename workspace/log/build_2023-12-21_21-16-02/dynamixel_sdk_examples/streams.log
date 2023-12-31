@@ -1,0 +1,73 @@
+[0.094s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot3/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples
+[0.170s] -- The C compiler identification is GNU 11.4.0
+[0.247s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting C compiler ABI info
+[0.393s] -- Detecting C compiler ABI info - done
+[0.405s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.405s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.410s] -- Detecting CXX compiler ABI info
+[0.524s] -- Detecting CXX compiler ABI info - done
+[0.535s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.536s] -- Detecting CXX compile features
+[0.536s] -- Detecting CXX compile features - done
+[0.541s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.813s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.981s] -- Found dynamixel_sdk: 3.7.60 (/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.983s] -- Found dynamixel_sdk_custom_interfaces: 3.7.60 (/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[1.036s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.044s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.056s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.189s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.280s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.284s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.441s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.493s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.563s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.577s] -- Looking for pthread.h
+[1.746s] -- Looking for pthread.h - found
+[1.747s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.899s] -- Found Threads: TRUE  
+[2.157s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.294s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.295s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.295s] -- Configured cppcheck include dirs: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot3/DynamixelSDK/dynamixel_sdk_examples/include
+[2.295s] -- Configured cppcheck exclude dirs and/or files: 
+[2.296s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.296s] -- Configured cpplint exclude dirs and/or files: 
+[2.296s] -- Added test 'lint_cmake' to check CMake code style
+[2.297s] -- Added test 'uncrustify' to check C / C++ code style
+[2.297s] -- Configured uncrustify additional arguments: 
+[2.298s] -- Added test 'xmllint' to check XML markup files
+[2.299s] -- Configuring done
+[2.319s] -- Generating done
+[2.321s] -- Build files have been written to: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples
+[2.338s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/src/turtlebot3/DynamixelSDK/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples
+[2.338s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples -- -j16 -l16
+[2.432s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[17.536s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[18.412s] [100%] Built target read_write_node
+[18.451s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples -- -j16 -l16
+[18.791s] Invoking command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples
+[18.807s] -- Install configuration: ""
+[18.815s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[18.871s] -- Set runtime path of "/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node" to ""
+[18.871s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[18.871s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[18.871s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[18.871s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[18.872s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[18.872s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[18.872s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[18.872s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[18.872s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[18.872s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[18.872s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[18.873s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[18.873s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[18.873s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[18.873s] -- Installing: /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[18.886s] Invoked command in '/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/lib:/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/abdosalm/Github_repos/SLAM-mapping-Robots/workspace/build/dynamixel_sdk_examples
